@@ -1,0 +1,27 @@
+///////////////// Fundamentos de Segurança em Projetos de Software /////
+
+AMEAÇAS - Fatores ou personalidades internos ou externos ao nosso sistema; Situações que podem vir a prejudicar as informações dentro de um sistema;
+
+RISCOS - 
+
+CONTROLES - 
+
+Para o software ser seguro ele tem que ter:
+    Disponibilidade     - Software operacional e acessível sempre que os usuários tentarem usar esse software;
+    Integridade         - Quando o software consegue garantir que as informações dele só possam ser modificadas por entidades/pessoas autorizadas;
+    Confidencialidade   - Garantia que as informações desse software estejam dispostas apenas para os usuários autorizados; 
+
+1.  Problema de segurança em software e a consciência de segurança
+
+A seguir estão alguns exemplos que devem ser implementados por padrão no design de código seguro:
+• o acesso deve ser restrito apenas a usuários autenticados e a autenticação deve ser implementada em todos os níveis;
+• os canais de comunicação devem ser criptografados para proteger os tokens de autenticação;
+• todas as chaves, senhas e certificados devem ser armazenados e protegidos adequadamente;
+• criptografia de arquivo, criptografia de banco de dados e criptografia de item de dados devem ser implementadas.
+
+Cross-Site Scripting (XSS) attacks - type of injection in which malicious scripts are injected into otherwise benign and trusted websites.
+
+2. Princípios básicos e os pilares da segurança em software
+
+
+// CONTINUAR DAQUI ...

@@ -1,0 +1,143 @@
+Dividido em 5 etapas:
+- Integridade acadêmica;
+- Pesquisa científica;
+- Normas para a citação e referências;
+- Normas para formatação de trabalhos acadêmicos;
+- Como publicar em revistas cientícicas;
+
+////////////////////////// Unidade 1: Integridade Acadêmica /////////////////////////////
+Os seis valores fundamentais da integridade acadêmica
+- Honestidade
+- Coragem
+- Confiança
+- Justiça
+- Respeito
+- Responsabilidade
+
+Exercícios -> 
+
+De acordo com o International Center for Academic Integrity (ICAI), quais são os seis valores fundamentais da integridade acadêmica?
+
+    Honestidade, confiança, justiça, respeito, responsabilidade e coragem.
+
+
+O Turnitin é uma ferramenta utilizada para:
+
+    Identificar similaridade entre textos e auxiliar na análise de citações.
+
+
+O que caracteriza a prática do plágio acadêmico?
+
+    Apresentar como ideias próprias textos ou dados de outros autores sem a devida atribuição.
+
+
+Qual das seguintes situações pode ser considerada uma violação da integridade acadêmica?
+    Todas essas alternativas ->
+        Reproduzir parte de um artigo sem referência adequada.
+        Indicar na autoria um colega que não construiu a pesquisa.
+        Manipular ou fabricar dados para sustentar uma hipótese.
+        Submeter um mesmo trabalho em disciplinas diferentes sem autorização prévia.
+
+Qual das alternativas abaixo é uma boa prática para garantir a integridade acadêmica?
+
+    Fazer paráfrases adequadas e citar corretamente as fontes utilizadas.
+
+
+
+
+////////////////////////// Unidade 2: Pesquisa ciencífica /////////////////////////////
+
+Pesquisa bibliográfica -> Forma organizada de buscar, analisar e interpretar artigos, livros e outros materiais relacionados ao tema de pesquisa;
+
+1 - Escolha do tema;
+2 - Elaboração do plano de trabalho;
+3 - Identificação;
+4 - Localização;
+5 - Compilação;
+6 - Fichamento;
+7 - Análise e interpretação;
+8 - Redação;
+
+Escolher corretamente a base de dados;
+
+Estratégias de busca: 
+Definição da pergunta de pesquisa;
+A seleção adequada de termos de busca;
+A aplicação de operadores booleanos;
+O uso de filtros e refinamentos;
+
+
+Exercícios: 
+
+Por que o uso de aspas (“”) em uma pesquisa é recomendado?
+
+    Para encontrar uma frase exata.
+
+
+Qual é a principal vantagem de usar filtros em uma busca acadêmica?
+
+    Refinar a busca para obter resultados mais relevantes.
+
+
+De acordo com Silva, Oliveira e Silva (2021) marque a alternativa que indica as 3 fases da elaboração da Pesquisa Bibliográfica.
+
+    Escolha do Tema, Elaboração do Plano de Trabalho e Fichamento.
+
+
+Qual dos operadores booleanos é usado para excluir um termo da busca?
+
+    NOT
+
+
+Marque a alternativa que indica 3 bases de dados referenciais.
+
+    Embase, MEDLINE/Pubmed e Scopus.
+
+
+//////////// Unidade 3: Normas para Citações e Referências //////////////////////
+
+
+tipos de citação: a direta, a indireta e a citação de citação.
+
+organização das referências e exige informações como autor, título, edição, local, editora, data de publicação e link, quando for um conteúdo online.
+
+
+Observar citações conforme o padrão ABNT;
+Observar referências conforme o padrão ABNT;
+
+
+Exercícios:
+
+Qual a diferença fundamental entre citação direta e citação indireta, conforme a ABNT NBR 10520?
+
+    A citação direta transcreve o trecho original literalmente, enquanto a citação indireta reescreve as ideias com as palavras do autor do trabalho.
+
+
+No estilo de formatação APA, qual das alternativas abaixo está correta quanto à apresentação de citações diretas com menos de 40 palavras?
+
+    A citação deve ser inserida no corpo do texto, entre aspas duplas, e deve incluir o sobrenome do autor, ano de publicação e a página de onde o trecho foi retirado.
+
+
+Como deve ser organizada a lista de referências de acordo com o estilo Vancouver?
+
+    A lista deve ser organizada numericamente, seguindo a ordem de citação no texto.
+
+Por que é importante seguir a ABNT NBR 6023 corretamente?
+
+Todas as alternativas estão corretas: 
+        Para evitar o plágio, citando todas as fontes usadas.
+        Para cumprir exigências formais de determinadas universidades.
+        Para evitar o uso de fontes não confiáveis.
+        Para garantir a confiabilidade e a localização das fontes utilizadas.
+
+
+Qual a principal diferença entre citação e referência?
+
+    A citação é o trecho retirado de uma fonte, enquanto a referência indica a obra completa da qual a citação foi extraída.
+
+
+
+
+//////////// Unidade 4:  //////////////////////
+
+CONTINUAR DAQUI...
