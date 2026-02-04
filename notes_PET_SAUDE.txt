@@ -1,0 +1,8 @@
+WebRTC - Protocolo open-source para áudio/vídeo em tempo real - Web, Mobile
+
+Agora.io - SDK pronto para vídeo/áudio em tempo real - Quem quer acelerar o desenvolvimento
+
+
+Twilio Video - Plataforma paga, escalável, com SDKs - Empresas, apps comerciais
+
+Jitsi  - Open-source, self-host ou cloud - Apps gratuitos, código aberto
