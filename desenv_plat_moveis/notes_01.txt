@@ -1,0 +1,8 @@
+//////////////////////////////////////////////////////////
+
+https://snack.expo.dev/
+
+
+Componente View -> elemento retangular que serve como bloco de construlão bpasuci da interface do usuário(UI). A aplicação tem que ter ao menos uma View;
+
+
