@@ -24,4 +24,91 @@ Cross-Site Scripting (XSS) attacks - type of injection in which malicious script
 2. Princípios básicos e os pilares da segurança em software
 
 
-// CONTINUAR DAQUI ...
+A segurança da informação existe para minimizar os riscos do negócio.
+
+McGraw -> pontos que podemos adotar no processo de desenvolvimento de software:
+
+- Revisão do código;
+- Análise de risco;
+- Testes de penetração;
+- Testes de segurança baseados em riscos;
+- Casos de falha/defeito;
+- Requisitos de segurança;
+- Operações de segurança
+
+Teste de penetração -> Fornece uma boa compreensão do software em seu ambiente real;
+
+Os testes de segurança devem abranger duas estratégias:
+- Teste da funcionalidade de segurança com técnicas de teste funcional padrão;
+- Testes de segurança baseado em risco e em padrões de ataque, resultados de análise de risco e casos de abuso;
+
+
+
+Exercícios ->
+Leia o trecho a seguir:
+
+“Na apresentação das boas práticas de programação, pode-se constatar que a implementação de código recomendada difere significativamente de uma implementação de código despreocupada com as questões de segurança, por isso, a melhor estratégia para tratar as vulnerabilidades de segurança é incorporar um conjunto de boas práticas durante o processo de desenvolvimento da aplicação, com o intuito de mitigar o maior número de vulnerabilidades possível. Dessa forma, os impactos da exploração de alguma vulnerabilidade remanescente e o esforço para adequar o código serão significativamente reduzidos”. (SILVA, 2011, p. 86). SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas.
+
+I. Os relatos de violações de dados e sistemas hackeados que aparecem na mídia quase todos os dias mostram o quão importante é o tema da proteção.
+
+POIS:
+
+II. Violações de privacidade e vazamentos de dados podem resultar em grandes multas, impacto negativo na imagem da empresa e podem fazer com que os usuários finais sejam indenizados.
+
+A seguir, assinale a alternativa correta:
+
+    As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
+
+
+
+Leia o trecho a seguir:
+
+“Obter o nível necessário de conhecimento e experiência é um objetivo fundamental para as organizações na implementação de políticas de segurança no desenvolvimento de aplicações Web. O desafio da segurança das aplicações está entre os temas mais dinâmicos, complexos e sofisticados que qualquer organização de TI terá de enfrentar.
+
+Foi a falta geral de conhecimento dentro desta área que criou o atual estado extremamente propício a um número infinito de possíveis alvos para ataques maliciosos”. (SILVA, 2011, p. 20).
+
+SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir desse contexto, no que diz respeito à análise estática, é correto afirmar que:
+
+    A análise estática é uma boa maneira de encontrar manipulações de código intencionais e códigos maliciosos ocultos.
+
+
+
+Leia o trecho a seguir:
+
+“Requisitos de segurança são um conjunto de requisitos que ajudam a garantir que o software seja construído e implantado de forma segura. O objetivo da segurança em aplicações é manter a confidencialidade, integridade e disponibilidade dos recursos de informação, a fim de permitir que as operações de negócios sejam bem-sucedidas. Esse objetivo é alcançado através da implementação de controles de segurança. Implantar mecanismos de segurança possibilita que a organização alcance suas metas e objetivos de negócios, levando em consideração as ameaças relacionadas ao uso de sistemas de informação”. (SILVA, 2011, p. 10).
+
+SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir desse contexto, no que diz respeito ao desenvolvimento de software, é correto afirmar que:
+
+    Segurança e qualidade devem ser tratadas igualmente, e a qualidade deve ser baseada em práticas técnicas maduras.
+
+
+
+Leia o trecho a seguir:
+
+“A identificação e categorização das vulnerabilidades mais exploradas mostram que a maior parte delas são inseridas durante o desenvolvimento das aplicações, na implementação de códigos inseguros que possibilitam os ataques maliciosos. A partir da identificação das vulnerabilidades, é possível determinar um conjunto de estratégias de prevenção que eliminam ou pelo menos minimizam o impacto dos ataques maliciosos. No entanto, não basta aplicar as estratégias de prevenção isoladamente. Para que a aplicação se torne segura, é necessário que a preocupação com segurança seja constante, por isso se torna imprescindível que um conjunto de boas práticas de programação seja estabelecido e adotado no processo de desenvolvimento.” (SILVA, 2011, p. 7).
+
+SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir desse contexto, podemos afirmar que:
+
+I - Pode ser difícil fornecer 100% de proteção de segurança para o software, mas se a equipe analisar os riscos e a segurança envolvida no software, certamente será possível mitigar esses riscos.
+
+II - A primeira tarefa da equipe de desenvolvimento é identificar e analisar os riscos da aplicação (projeto), entender as possíveis opções de mitigação e escolher a melhor opção de correção (atualização).
+
+III - Uma vez identificadas as principais vulnerabilidades de segurança, é recomendável classificar os ataques que um programa provavelmente enfrentará.
+
+IV - A implementação de segurança para o acesso a dados por um usuário não autorizado deve ser feita com autenticação e autorização adequadas.
+
+Está correto o que se afirma em:
+
+    I, II, III e IV.
+
+
+
+
