@@ -1,5 +1,10 @@
 ///////// Validação da entrada de dados ///////////
 
+Vídeo 1 visto, ver vídeo 2.... 7 min do video
+
+1. Técnicas e ferramentas: superfície de ataque, expressões regulares
 
 
+
+CONTINUAR DESSE TÓPICO DA APOSTILA;
 
