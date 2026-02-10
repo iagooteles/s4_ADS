@@ -4,7 +4,16 @@ Vídeo 1 visto, ver vídeo 2.... 7 min do video
 
 1. Técnicas e ferramentas: superfície de ataque, expressões regulares
 
+Defeito: As vulnerabilidades de implementação e as vulnerabilidades de design são defeitos. Um defeito é um problema que pode ficar adormecido no software por anos apenas para aparecer em um campo de sistema com grandes consequências;
 
+Bug: É um problema de software em nível de implementação. Os Bugs podem existir no código, mas nunca devem ser executados. São problemas de nível de implementação que podem ser facilmente descobertos e corrigidos;
+
+Estouro: Bug de implementação;
+
+Risco: Falhas e bugs levam ao risco;
+
+
+2. Variáveis de ambiente, descritores, nome e conteúdo de arquivos
 
 CONTINUAR DESSE TÓPICO DA APOSTILA;
 
