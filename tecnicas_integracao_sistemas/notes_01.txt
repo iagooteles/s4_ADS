@@ -1,0 +1,35 @@
+
+
+Integração Ponto a Ponto - Conhecida por sua simplicidade de implementação e é especialmente útil para integrações básicas entre dois sistemas;
+
+    Conexão direta e rápida entre sistemas web;
+    Manutenção e atualização complexas quando há alterações nos sistemas envolvidos;
+
+Quantidade de integrações = N(N - 1) / 2
+
+Problema: Quantidade do número de integrações que se pode ter;
+Exemplo: 
+
+
+Integração banco a banco - Oferece vantagens como sincronização em tempo real e compartilhamento padronizado de dados entre sistemas.
+Essa abordagem facilita a comunicação eficiente e contínua entre diferentes bancos de dados;
+
+
+Integração por barramento - Flexibilidade para remover ou adicionar serviços;
+Parte negativa: Complexidade da configuração e gerenciamento do barramento de serviços;
+
+O que é um barramento?
+
+
+Integração por mensageria - Comunicação assíncrona que permite o desacoplamento entre sistemas;
+Necessidade de gerenciar a consistência e a ordem das mensagens;
+Permite que o sistema troque mensagens mesmo quando não estão em execução simultânea;
+
+O que é um broker? Gerenciamento de Filas;
+
+
+Integração por microsserviços
+Escalabilidade e manutenção facilitadas por meio de serviços independentes e isolados;
+Coordenação e gerenciamento complexos entre os microsserviços;
+
+
