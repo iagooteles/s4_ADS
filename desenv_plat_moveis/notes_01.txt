@@ -18,3 +18,10 @@ Componente View -> elemento retangular que serve como bloco de construlão bpasu
 <TouchableOpacity onPress{() => Linking.openURL('urlaqui')}>
 
 
+//////////////////////////////////////////////////////////
+
+Fazer config do projeto no vs code pessoal;
+e github
+
+
+
