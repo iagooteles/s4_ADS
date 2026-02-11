@@ -14,7 +14,7 @@ Objetivos:
 /////////// 3. Estrutura analítica de projetos (EAP) /////////////////////////
 
 
-
+CONTINUAR DAQUI
 
 /////////// 4. Ciclo de vida de um projeto e a tríplice restrição /////////////////////////
 
