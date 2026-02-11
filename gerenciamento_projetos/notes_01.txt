@@ -26,12 +26,103 @@ Objetivos de gerenciamento de projetos:
 
 ////////////// 2. Projetos como agentes de mudanças ///////////////////
 
-
-CONTINUAR DO VIDEO 3    
+O PMBOK, considerado um dos principais guias do Mundo para a gestão de projetos, abrange 10 (dez) áreas do conhecimento:
+    1. Gerenciamento da integração do projeto
+    2. Gerenciamento do escopo do projeto
+    3. Gerenciamento do cronograma do projeto
+    4. Gerenciamento dos custos do projeto
+    5. Gerenciamento da qualidade do projeto
+    6. Gerenciamento dos recursos do projeto
+    7. Gerenciamento das comunicações do projeto
+    8. Gerenciamento dos riscos do projeto
+    9. Gerenciamento das aquisições do projeto
+    10.Gerenciamento das partes interessadas do projeto
 
 ////////////// 3. Gerenciamento de projetos no Brasil e no Mundo ///////////////////
 
+Problemas com maior frequencia no gerenciamento de projetos brasileiros:
+- Não cumprimento dos prazos;
+- Mudanças de escopo constantes;
+- Escopo não definido adequadamente;
+- Problemas de comunicação;
+- Problemas relacionados ao gerenciamento de custos;
 
 ////////////// 4. Conceito de sucesso em projetos ///////////////////
+
+Modelo multidimensional para a avaliação do sucesso em projetos, cinco dimensões:
+
+- Eficiência do projeto: cumprimento do projeto de acordo com o plano;
+- Impacto no cliente: possibilidade de identificar como o projeto melhorou a vida ou o negócio do cliente;
+- Impacto na equipe: como o projeto afeta a equipe e seus membros;
+- Resultados comerciais: resultados do projeto sobre o retorno do investimento, a participação de mercado e o crescimento;
+- Preparação para o futuro: possibilidades de novas tecnologias, novos mercados e novas capacidades que geram benefícios futuros;
+
+
+Exercícios:
+
+A aprendizagem continuada para o profissional de gestão de projetos é uma demanda para que o processo de gerenciamento de projetos seja executado com eficiência e eficácia, e atenda não somente as especificações das metodologias de gerenciamento de projetos, mas principalmente, gere valor para os mercados organizacionais e os stakeholders. Sobre o processo de aprendizagem organizacional e gestão de projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. O PMI® (Project Management Institute) é a primeira organização no mundo a ter seu Programa de Certificação dos profissionais de projetos reconhecido pela International Organization for Standardization (ISO) 9001.
+
+II. As habilidades dos gestores de projetos englobam não somente identificar os riscos e problemas, mas oportunidades de novos negócios, projetos e inovações.
+
+III. As habilidades dos gestores de projetos se restringem a identificar os riscos e os problemas.
+
+IV. Os projetos como agentes de mudanças organizacionais englobam a necessidade de adaptação de modelos de gestão, profissionais qualificados, flexibilidade da cultura e comunicação organizacional.
+
+V. O aprendizado contínuo e a obtenção da certificação profissional são importantes para a profissionalização dos gestores de projetos, mas as práticas profissionais, além da inteligência emocional, são outros atributos fundamentais.
+
+    I, II, IV e V estão corretas.
+
+
+
+A etapa do planejamento de projetos é identificada como fundamental e crucial para que um projeto alcance resultados positivos para os stakeholders, o chamado Sucesso em Projetos. Sobre o planejamento em projetos e a importância no gerenciamento e resultados dos projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. O planejamento estratégico de projetos é uma das ações presentes nos projetos de excelência em empresas globais.
+
+II. Estudos sobre empresas globais e a atuação na etapa de planejamento de projetos sinalizam que em países como Alemanha, Japão e Estados Unidos, o índice de sucesso quanto à conclusão dentro do prazo, do orçamento e obtenção dos resultados desejados pela organização giram em torno de 80%.
+
+III. Estudos sobre empresas globais e a atuação na etapa de planejamento de projetos sinalizam que é uma ação considerada como ponto forte das empresas brasileiras.
+
+IV. Não é possível correlacionar o impacto do planejamento de projetos com o sucesso em projetos e a ocorrência das práticas em maior frequência em países altamente competitivos na economia global.
+
+V. É possível correlacionar o impacto do planejamento de projetos com o sucesso em projetos e a ocorrência das práticas em maior frequência em países altamente competitivos na economia global.
+
+    I, II, III e V estão corretas.
+
+
+
+As mudanças ocorridas nos projetos tendem a se constituir como um dos principais problemas da gestão de projetos, pois podem gerar custos não previstos, desvio dos objetivos, dificuldades para a alocação de recursos, conflitos, entre outros. Sobre o sistema de gestão de mudanças em projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. As mudanças em projetos podem ser benéficas ou prejudiciais. As mudanças benéficas podem ser aprovadas, mas nem todas as mudanças prejudiciais podem ser evitadas, daí a importância da gestão de riscos.
+
+II. A equipe do projeto deve ser responsável por determinar os impactos potenciais - positivos ou negativos nos custos, no cronograma e na organização, e agir de forma a minimizar a mudança negativa.
+
+III. A melhoria contínua em projetos visa fazer com que o time do projeto identifique e compreenda a causa raiz das mudanças, com foco em evitar a repetição de problemas no futuro.
+
+IV. A melhoria contínua em projetos visa fazer com que o time do projeto identifique e puna os responsáveis pelos problemas e impactos negativos dos projetos.
+
+V. As mudanças em projetos são somente prejudiciais, não podem ser evitadas, somente minimizadas pelo processo da gestão de riscos.
+
+    I, II e III estão corretas.
+
+
+Para compreender o processo do gerenciamento de projetos, é importante reconhecer o conceito de projetos e de que forma se diferencia das chamadas tarefas rotineiras. Sobre o conceito de projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. O projeto é um esforço permanente empreendido para criar um produto, serviço ou resultado exclusivo.
+
+II. O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo.
+
+III. O projeto é tudo aquilo que precisamos realizar para gerar algo novo: pode ser o projeto de uma casa, um sistema informatizado, um estudo/pesquisa, um trabalho de conclusão
+
+de curso, uma contratação ou um compra importante.
+
+IV. O fato dos projetos serem temporários significa que devem ter curta duração do cronograma de execução.
+
+V. O fato do projeto ser temporário significa que os projetos devem ter um início e um término definidos, não significa que sejam de curta duração.
+
+
+    II, III e V estão corretas.
+
 
 

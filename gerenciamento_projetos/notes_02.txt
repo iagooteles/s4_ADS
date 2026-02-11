@@ -1,0 +1,22 @@
+/////////// 1. Termo de abertura, definição de projeto, programa, portfólio e gerenciamento de stakeholders /////////////////////////
+
+Definição de projeto: Definição do 'escopo' do projeto;
+Objetivos:
+- Descrever os limites dos produtos, serviços ou resultados, definindo quais dos requisitos coletados serão incluídos e quais serão excluídos do escopo do projeto.
+
+
+
+/////////// 2. Gerente de projetos e escritórios de projetos - PMO /////////////////////////
+
+
+
+
+/////////// 3. Estrutura analítica de projetos (EAP) /////////////////////////
+
+
+
+
+/////////// 4. Ciclo de vida de um projeto e a tríplice restrição /////////////////////////
+
+
+
