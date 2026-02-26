@@ -33,3 +33,22 @@ Escalabilidade e manutenção facilitadas por meio de serviços independentes e 
 Coordenação e gerenciamento complexos entre os microsserviços;
 
 
+
+
+//////////////////////////// Atividade ///////////////////////////////
+Criar uma requisição POST e DELETE;
+
+GET -> 
+
+    curl https://jsonplaceholder.typicode.com/ 
+
+POST -> 
+
+    curl -X POST https://jsonplaceholder.typicode.com/posts \
+        -H "Content-Type: application/json" \
+        -d '{"title": "meu post - iago", "body": "conteúdo do post - iagooo", "userId": 1}'
+
+DELETE ->
+
+    curl -X DELETE https://jsonplaceholder.typicode.com/posts/1
+
