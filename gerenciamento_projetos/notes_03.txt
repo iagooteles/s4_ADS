@@ -28,8 +28,17 @@ Gestão de Custos ->
 
 2. Gestão de recursos humanos, fornecedores e aquisições
 
+Gestão dos recursos humanos em projetos:
+- Planejar a gestão de pessoas;
+- Montar a equipe do projeto;
+- Desenvolver a equipe do projeto;
+- Gerenciar a equipe do projeto;
+- Gerenciar o relacionamento com as partes interessadas;
 
 
+Gestão dos fornecedores e aquisições -> 
+
+Encerramento das aquisições -> auditoria, negociações e gestão do sistema de registros;
 
 
 /////////////////////////////////////////////// 
