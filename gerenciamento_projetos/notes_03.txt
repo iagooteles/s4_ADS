@@ -1,0 +1,57 @@
+Ver vídeo;
+
+///////////////////////////////////
+
+1. Definição do escopo, cronograma, gestão do tempo, custos e processos de comunição
+
+PMBOK ( Project Management Body of Knowledge) -> Para abordagem sobre a importância da definição do escopo, cronograma, gestão do tempo, custos e processos de comunicação nos projetos;
+
+Conceito de projeto -> Esforço para se alcançar um objetivo específico por meio de um conjunto único de atividades; Tem que ter um objetivo claro, estabelecendo o que deve ser realizado;
+
+    Objetivo -> Produto final/entrega, cronograma e orçamento;
+
+    Restrição tripla: escopo, custo e tempo;
+
+Cronograma -> Garantir que as entregas previstas no escopo do projeto sejam visualizadas, compreendiadas e entregues no prazo;
+
+Gestão de tempo -> 
+Planejar e gerenciar o cronograma
+Definir as atividades;
+Sequenciar as atividades;
+Estimar os recursos das atividades;
+Desenvolver o cronograma;
+
+Gestão de Custos -> 
+
+
+//////////////////////////////////////
+
+2. Gestão de recursos humanos, fornecedores e aquisições
+
+
+
+
+
+/////////////////////////////////////////////// 
+
+3. Gestão da qualidade e riscos
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////
+
+4. Gerenciamento da integração.
+
+
+
+
+
+
+
