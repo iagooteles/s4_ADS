@@ -1,0 +1,14 @@
+
+
+
+
+
+//////////////////////////////////  1. Abordagem ágil e tradicional no processo de teste de software //////////////////////////////////////
+
+
+métodos de desenvolvimento de software tradicionais: cascata, incremental, espiral, prototipação;
+
+A ideia do Test Driven Development(TDD)  é que você trabalhe em ciclos. Estes ciclos ocorrem na seguinte ordem (GUEDES, 2019):
+1. Primeiro, escreva um teste unitário que inicialmente irá falhar, tendo em vista que o código ainda não foi implementado;
+2. Crie o código que satisfaça esse teste, ou seja: implemente a funcionalidade em questão. Essa primeira implementação deverá satisfazer imediatamente o teste que foi escrito no ciclo anterior;
+3. Quando o código estiver implementado e o teste satisfeito, refatore o código para melhorar pontos como legibilidade. Logo após, execute o teste novamente. A nova versão do código também deverá passar sem que seja necessário modificar o teste escrito inicialmente.

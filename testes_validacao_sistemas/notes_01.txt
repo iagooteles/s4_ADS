@@ -1,0 +1,169 @@
+////////////////////  1. Princípios, Pilares e Modelos de Teste de Software //////////////////////////////////////
+
+
+Qualidade -> avaliar algo em termos que atenda a um grau positivo ou negativo em relação à sua excelência;
+
+Qualidade de software -> uma gestão de qualidade efetiva aplicada de modo a criar um produto útil que forneça valor mensurável para aqueles que produzem e para aqueles que o utilizam;
+
+
+
+Plano estratégico de testes
+
+CMMI - Capability Maturity Model Integration - modelo contendo um conjunto de práticas que servem de referência para que as empresas possam melhorar os processos e o desempenho no desenvolvimento de produtos e serviços;
+
+MPSBr - Melhoria do Processo de Sfotware Brasileiro
+
+ISO/IEC 15504/SPICE - Padrão que define um conjunto de requisitos para avaliação do processo de software;
+
+
+
+FATORES
+
+Fatores McCall - avaliao software sob alguns apectos diferentes
+    Revisão do produto
+    Transição do produto
+    Operação do produto
+
+
+Correção. O quanto um programa satisfaz a sua especificação e atende aos objetivos da missão do cliente.
+• Confiabilidade. O quanto se pode esperar que um programa realize a função pretendida com a precisão exigida.
+• Eficiência. A quantidade de recursos computacionais e código exigidos por um programa para desempenhar sua função.
+• Integridade. O quanto o acesso ao software ou dados por pessoas não autorizadas pode ser controlado.
+• Usabilidade. Esforço necessário para aprender, operar, preparar a entrada de dados e interpretar a saída de um programa.
+• Facilidade de manutenção. Esforço necessário para localizar e corrigir um erro em um programa.
+• Flexibilidade. Esforço necessário para modificar um programa em operação.
+• Testabilidade. Esforço necessário para testar um programa de modo a garantir que ele desempenhe a função destinada.
+• Portabilidade. Esforço necessário para transferir o programa de um ambiente de hardware e/ou software para outro.
+• Reusabilidade. O quanto um programa [ou partes de um programa] pode ser reutilizado em outras aplicações — relacionado com o empacotamento e o escopo das funções que o programa executa.
+• Interoperabilidade. Esforço necessário para integrar um sistema a outro.
+
+
+
+Fatores ISO 9126 - funcionalidade, confiabilidade, usabilidade, eficiência, facilidade de manutenção e portabilidade
+
+
+Fatores desejados
+
+
+VERIFICAÇÃO E VALIDAÇÃO - Para atestar que um software está de acordo com os parâmetros estabelecidos;
+
+Verificação - Nos perguntar se estamos construindo o produto corretamente; é neste momento que verifica-se se a implementação está correta;
+
+Validação - O que foi construído do produto corresponde às expectativas do usuário;
+
+
+ERRO, DEFEITO e FALHA
+
+Erro -> Cometido pelo ser humano, neste caso, a pessoa deixa de fazer algum procedimento importante dentro da construção de um determinado produto software;
+
+Falha ->  Consequência causada pelo erro humano que não foi identificada em tempo de desenvolvimento ou homologação, que, ao chegar no usuário, pode causar falha na operação do sistema;
+
+
+/////////////// 2. Fases da atividade de teste, limitações e impactos dos testes /////////////////////
+
+A função de um analista de testes está muito além de somente realizar a execução do teste. É imprescindível que este profissional esteja presente durante todo o ciclo de vida do sistema, inclusive na fase das concepções de ideias e levantamento de requisitos até a entrega final do projeto.
+
+
+Testes de unidade (Testes de componente, unitários) - Primeiro nível de teste; Assegura que cada funcionalidade especificada para o componente tenha sido implementada corretamente; 
+    Objetivo de encontrar falhas (bugs), adquirir confiança e reduzir riscos em partes individuais do sistema, antes que estas partes sejam integradas para compor o sistema;
+
+    Este tipo de teste deve ser o mais simples possível e deve ser pensado especificamente para a parte em questão a ser testada, pois o teste adequado do componente só é possível durante os testes de integração;
+
+
+Testes de integração - Os componentes são construídos e testados separadamente. Com isso, ao serem agrupados, deve-se verificar se eles interagem de forma correta.
+
+A maior dificuldade em colocar todos os módulos juntos está em considerar os dados que podem ser perdidos; ou um componente pode ter efeito imprevisto ou adverso sobre outro; ou ainda os componentes em conjuntos podem não produzir a funcionalidade desejada.
+
+Os testes de integração são realizados após a construção dos componentes que devem ser integrados e que já tenham sido passados pelo teste unitário. O ideal é que esse tipo de teste seja realizado em ambiente de desenvolvimento, podendo ser realizado por desenvolvedores, testadores, analista de sistemas, DBA, dentre outras funções.
+
+Métodos de teste de integração:
+
+    Big bang - todos os componentes já testados são combinados de uma única vez e testados em conjunto. Neste tipo de método há um caos, que dependendo do projeto não é adequado, além de ser difícil de rastrear algum erro que possa ser encontrado. 
+
+    incremental - os componentes são desenvolvidos e testados em partes, o que proporciona maior facilidade para encontrar erros e maior probabilidade de ser testado por completo. 
+
+        O método incremental se divide ainda em dois tipos: Top-down e Bottom-up. No primeiro, a integração dos componentes ocorre de cima para baixo, iniciando-se com o programa principal (main) e acrescentando-se os módulos subordinados. Inicia através do teste do programa principal e utiliza stubs para os níveis abaixo, onde cada stub vai sendo substituído por um componente. Os módulos são integrados um a um e testados. O processo se repete até toda estrutura do programa ser construída.
+
+        Já no método Bottom-up, a integração dos componentes ocorre de baixo para cima, iniciando-se com a construção e teste de módulos da estrutura do programa nos níveis mais baixos.
+
+        Top-down: Problemas de arquitetura podem ser identificados mais cedo; Mais apropriado para desenvolvimento estruturado; alto custo
+
+        Bottom-up: Consegue identificar problemas de arquitetura muito tarde; Apropriado para o desenvolvimento orientado a objetos;
+
+
+
+Teste de sistema - É o terceiro nível de teste e tem como foco o sistema como um todo para validar a exatidão e a perfeição na execução das funções requeridas;
+
+O objetivo deste teste é encontrar defeitos, adquirir confiança e reduzir riscos no comportamento global e particular do sistema. É esperado que o ambiente no qual este teste irá ser realizado seja muito próximo do ambiente de produção (ambiente de utilização real do sistema).
+
+
+Nos testes de sistema, deve-se tratar de requisitos funcionais (operação esperada das funcionalidades) e não-funcionais relacionados a desempenho, volume, robustez etc.
+Neste caso, podemos citar alguns tipos:
+•	 Teste de Recuperação - força o sistema a falhar de diversos modos e verificar se a recuperação é realizada de forma adequada.
+•	 Teste de Segurança - verifica se os mecanismos de segurança vão protegê-lo durante invasão imprópria.
+•	 Teste de Estresse - submete o sistema a situações anormais, como, por exemplo, aumentar a velocidade de entrada dos dados para verificar como as funções vão reagir.
+•	 Teste de Desempenho - testa o desempenho do software durante a execução.
+
+
+
+Testes de validação - Este é o último nível de teste antes da implantação no ambiente de produção; Também é conhecido como teste de aceitação; Tem como objetivo verificar se o sistema está pronto para ser implantado em ambiente produtivo com base nos critérios de aceitação.
+
+
+Existem ainda alguns tipos de teste de aceitação. São eles:
+•	 Teste de aceitação do usuário - usuário conhecedor do negócio verifica se o sistema está apropriado para o uso. É apropriado quando quem vai usar o sistema não é quem está pagando pelo sistema.
+•	 Teste operacional - teste conduzido para avaliar um componente ou sistema em seu ambiente operacional.
+•	 Teste de contrato e regulamento - verifica a conformidade dos requisitos, regulamentos ou normas contratualmente acordados ou de exigência legal.
+•	 Teste alfa e teste beta - quando o software é desenvolvido para ser um produto a ser usado por vários clientes, é inviável realizar testes de aceite com cada um. A opção é realizar teste de campo para obter feedback de clientes em potencial. O teste alfa ocorre na empresa fabricante do produto, é executado pelo cliente e há presença de desenvolvedores. Já o teste beta, ocorre nas instalações do cliente em potencial, é executado pelo cliente e o desenvolvedor normalmente não está presente.
+
+
+///////////////////// 3. Critérios de teste de software /////////////////////
+
+
+Critério de 'pronto': 
+
+Metas, atributos e métricas;
+
+
+
+
+
+
+///////////////////// 4. Papel do analista de testes, certificações, equipes de times ágeis /////////////////////
+
+
+Analistas de testes - o responsável por identificar e definir os testes exigidos, monitorar o processo de teste em detalhes e os resultados em cada ciclo de teste e avaliar a qualidade geral.
+
+
+
+O trabalho de Analista de Testes está conectado à qualidade do produto e, muitas vezes, ele pode atuar também como Analista de Qualidade ou, no termo em inglês, Quality Assurance (QA). Nesse caso, o analista não valida apenas o produto, mas todo o processo de criação, da concepção inicial da ideia do software à entrega do produto. 
+
+Em resumo, Quality Assurance foca em garantir que o produto ou serviço tenha a melhor qualidade possível. Para isso, o profissional analisa todos os passos da sua criação e o modo de trabalho das equipes que participaram do desenvolvimento, testando objetivos, desempenho e agilidade
+
+
+CAST - Certified Associate in Software Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

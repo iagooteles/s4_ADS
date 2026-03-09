@@ -1,0 +1,8 @@
+A formalização do gerenciamento de projetos começou a ganhar força ao longo do século XX, com a criação de metodologias e práticas que buscavam organizar de forma mais eficiente os projetos em diversas indústrias. Um dos grandes avanços no campo do gerenciamento de projetos foi o desenvolvimento de técnicas que permitiam calcular e gerenciar o tempo de conclusão de atividades críticas dentro de projetos complexos.
+
+Entre as opções abaixo apresentadas, qual foi uma das metodologias desenvolvidas para identificar o caminho mais longo de atividades e assim determinar a duração mínima do projeto?
+
+    e. Método do Caminho Crítico (CPM). 
+        é uma técnica de gestão para identificar a sequência mais longa de tarefas dependentes e calcular o tempo mínimo de conclusão de um projeto.
+
+
