@@ -54,7 +54,7 @@ Planejamento - Neste momento, é discutido quais são as estratégias para a exe
 Planejamento de teste no PMBOK - o PMBOK não aborda um padrão propriamente dito pra a documentação de teste, esta fase do projeto é vista em separado do desenvolvimento;
 
 
-Modelagem do teste ->
+Modelagem do teste -> continuar daqui 
 
 
 
