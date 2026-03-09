@@ -20,8 +20,67 @@ Componente View -> elemento retangular que serve como bloco de construlão bpasu
 
 //////////////////////////////////////////////////////////
 
+Nuvem -> ;
+
+
+provedor - hospedeiro da aplicação; protege, gerencia e mantém os  servidores e infraestrutura... garante o acesso de dados de forma contínua;
+
+Elasticidade - Aumentar a robustez/capacidade do servidor de acordo com a sua quantidade de acessos;
+
+redundância - Os provedores normalmente armazenam os mesmos dados em outras máquinas virtuais, para garantir seu acesso caso a outra máquina venha a cair;
+
+Tipos de nuvem:
+    pública
+    privada
+    híbrida
+
+SaaS - 
+
+PaaS - 
+
+IaaS -
+
+
+//////////////////  LGPD  ///////////////////////
+
+LGPD - Regula a .... no Brasil;
+
+Encarregado -> DPO 
+
+Base Legal -> 
+    consentimento
+    obrigação Legal
+    execução do contrato
+    proteção da vida 
+    políticas públicas 
+    legítimo interesse
+
+ANPD - Autoridade Nacional de Proteção de Dados ; 
+
+    dado pessoal - Qualquer informação que identifique ou possa identificar uma pessoa;
+    dado pessoal sensível - Qualquer dado que possa gerar discriminação;
+
+
+Tratamento de dados - Qualquer operação realizada com dados pessoais;
+
+///////////////////////////////////////////
 Fazer config do projeto no vs code pessoal;
 e github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,5 @@
 Aulão introdutório
 
-Continuar faltando 13 min p acabar;
-
 
 //////// 1. Princícios, Pilares e Modelos de Teste de Software //////////////
 
@@ -9,7 +7,7 @@ Qualidade de software -> Gestão de qualidade efetiva aplicada de modo a criar u
     Estabelecer a melhor construção possível de um software;
 
 
-Segundo Pressman (2021), podemos definir cada fator da seguinte forma:  CONTINUAR DAQUI
+Segundo Pressman (2021), podemos definir cada fator da seguinte forma:
 
 
 

@@ -12,3 +12,67 @@ A ideia do Test Driven Development(TDD)  é que você trabalhe em ciclos. Estes 
 1. Primeiro, escreva um teste unitário que inicialmente irá falhar, tendo em vista que o código ainda não foi implementado;
 2. Crie o código que satisfaça esse teste, ou seja: implemente a funcionalidade em questão. Essa primeira implementação deverá satisfazer imediatamente o teste que foi escrito no ciclo anterior;
 3. Quando o código estiver implementado e o teste satisfeito, refatore o código para melhorar pontos como legibilidade. Logo após, execute o teste novamente. A nova versão do código também deverá passar sem que seja necessário modificar o teste escrito inicialmente.
+
+
+///////////////// 2. Principais Modelos de verificação e validação ///////////////////
+
+
+De forma sintetizada, as estratégias utilizadas podem ser entendidas da seguinte forma:
+•	 Especificação formal – utiliza-se o conceito de estrutura de caixas para estabelecer a especificação funcional do sistema, que são refinadas iterativamente (dentro de um incremento) para se tornarem análogas aos projetos arquitetônicos e ao nível de componentes.
+•	 Desenvolvimento incremental – o software é particionado em incrementos desenvolvidos e validados separadamente.
+•	 Programação estruturada – é usado um número limitado de construções abstratas de controle e de dados; codificação é um processo de refinamentos das especificações.
+•	 Verificação estática – rigoroso processo de inspeção.
+•	 Teste estatístico do sistema – cada incremento do software é testado estatisticamente para determinar a confiabilidade
+
+
+
+
+
+///////////////// 3. Técnicas estáticas e dinâmicas de verificação e validação de software ///////////////////
+
+
+Validação estática -> realizada sem possuir a aplicação em execução
+
+Validação dinâmica -> O sistema precisa funcionar para ser implementado.
+
+
+Técnicas estáticas -> Não requerem a execução propriamente dita do produto, podendo ser aplicadas em qualquer produto intermediário do processo de desenvolvimento.
+
+Inspeções de software -> Verificam se o artefato de software satisfaz as especificações e está de acordo com os padrões aplicáveis, a fim de identificar desvios e coletar dados de engenharia de software, como defeito e esforço;
+
+Técnicas dinâmicas -> Requerem a execução do produto, fazendo compilar o código ou representações executáveis do sistema;
+
+
+A aplicação das 2 técnicas é importante para o processo de verificaçõa e validação do sistema, pois são técnicas complementares;
+
+
+//////// 4. Planejamento, modelagem do teste, execução, monitoramento e controle, validação dos resultados /////////////////
+
+Planejamento - Neste momento, é discutido quais são as estratégias para a execução dos próximos passos do processo de teste.
+
+
+Planejamento de teste no PMBOK - o PMBOK não aborda um padrão propriamente dito pra a documentação de teste, esta fase do projeto é vista em separado do desenvolvimento;
+
+
+Modelagem do teste ->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
