@@ -1,0 +1,10 @@
+///// Ruby on Rails ///////
+
+Geralmente utilizada para aplicações Monolíticas;
+Adota a arquitetura MVC;
+
+No nosso projeto vamos apenas trabalhar com Models e Controllers, visto que não vamos ter interface Gráfica (VIEWS) pois vamos contruir uma API;
+
+
+
+
