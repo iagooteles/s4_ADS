@@ -1,0 +1,18 @@
+Iago Teles Muniz - 2518943
+
+API utilizada - https://pokeapi.co/
+URL principal - https://pokeapi.co/api/v2/pokemon
+
+Informações ( Retiradas da documentação )
+Esta é uma API apenas para consumo — somente o método HTTP GET está disponível nos recursos.
+
+Não é necessária autenticação para acessar esta API, e todos os recursos são totalmente abertos e disponíveis. Desde a migração para hospedagem estática em novembro de 2018, a limitação de taxa (rate limiting) foi completamente removida, mas ainda incentivamos que você limite a frequência das requisições para reduzir nossos custos de hospedagem.
+
+Política de Uso Justo
+A PokéAPI é gratuita e aberta para uso. Ela também é muito popular. Por isso, pedimos que todos os desenvolvedores sigam nossa política de uso justo. Pessoas que não cumprirem a política de uso justo terão seu endereço IP permanentemente banido.
+
+A PokéAPI é principalmente uma ferramenta educacional, e não toleraremos ataques de negação de serviço que impeçam as pessoas de aprender.
+
+Foi experimentado buscar as informações de duas formas:
+Via Postman 
+Via terminal com o comando: curl https://pokeapi.co/api/v2/pokemon/pikachu | python -m json.tool
