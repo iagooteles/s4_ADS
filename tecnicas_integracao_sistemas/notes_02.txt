@@ -7,4 +7,14 @@ No nosso projeto vamos apenas trabalhar com Models e Controllers, visto que não
 
 
 
+rails ->
 
+rails new apiAula -> criar um projeto monolítico MVC
+rails new apiAula --api-only -> criar um projeto API
+
+rails generate resource NomeDoRecurso
+rails generate resource Aluno nome: string matricula: string 
+
+scarfold??  
+
+rails server -> subir o servidor
