@@ -69,10 +69,37 @@ e github
 
 
 
+////////////////////////////////////////////////
+
+Usar o firebase como banco de dados
+
+https://firebase.google.com/?hl=pt-br
+
+projeto: game-control
+
+no vscode tem que instalar o firebase
+
+npm i firebase
+
+
+no snack expo precisa conecato ao firebase assim ->
+
+
+import firebase from 'firebase';
+import 'firebase/firestore';
+
+colar região copiada do projeto no firebase aqui
+
+const firebaseConfig {
+
+}
+
+
+Adicionar a dependencia => mudar a versão para o 8.0.0
 
 
 
-
+import { db } from './firebaseConfig';
 
 
 
