@@ -1,4 +1,214 @@
+////////////////////  Técnicas de integração de sistemas  ///////////////////////////////////
 
+Arquitetura monolítica - toda a aplicação é construída em um único sistema integrado;
+    Um único código-fonte principal
+    Uma única aplicação executando no servidor
+    Módulos (login, produtos, pagamentos etc.) ficam dentro do mesmo projeto
+    Deploy único: qualquer mudança exige publicar tudo novamente
+
+Vantagens
+✅ Mais simples de desenvolver no início
+✅ Deploy mais fácil
+✅ Menos complexidade de infraestrutura
+✅ Debug mais simples
+
+Desvantagens
+❌ Difícil de escalar partes específicas
+❌ Código cresce e fica difícil de manter
+❌ Mudanças pequenas exigem redeploy completo
+❌ Equipes grandes podem gerar conflitos
+
+
+Arquitetura de Microsserviços - Na arquitetura de microsserviços, o sistema é dividido em vários serviços pequenos e independentes.
+Características
+    Vários serviços independentes
+    Cada serviço pode ter seu próprio banco
+    Comunicação via API (REST, gRPC, mensageria)
+    Deploy independente
+
+Vantagens
+✅ Escalabilidade independente
+✅ Deploy de serviços sem afetar os outros
+✅ Melhor para equipes grandes
+✅ Maior flexibilidade tecnológica
+
+Desvantagens
+❌ Infraestrutura mais complexa
+❌ Comunicação entre serviços pode gerar latência
+❌ Debug distribuído mais difícil
+❌ Gerenciamento de dados mais complexo
+
+
+Best of Breed: As empresas poderem optar por utilizar melhores softwares para cada funcionalidade.
+As empresas têm preferido comprar aplicações prontas ao invés de desenvolver sistemas sob medida
+
+
+Abordagem tradicional - ocorre quando sistemas são conectados diretamente entre si, geralmente com integrações ponto a ponto (point-to-point).
+Se houver 5 sistemas, podem existir até 10 integrações diferentes.
+Características
+    Integração direta entre sistemas
+    Normalmente feita caso a caso
+    Pouca padronização
+    Alto acoplamento
+
+Vantagens
+✅ Implementação rápida no início
+✅ Fácil quando existem poucos sistemas
+
+Desvantagens
+❌ Difícil de manter quando o número de sistemas cresce
+❌ Muitas conexões diferentes
+❌ Alterações em um sistema podem quebrar vários outros
+❌ Alto acoplamento entre sistemas
+
+Abordagem sistemática - busca integrar sistemas de forma organizada e padronizada, utilizando camadas de integração ou middleware.
+Em vez de sistemas se conectarem diretamente entre si, eles se conectam a um intermediário de integração.
+
+Exemplo:
+
+Sistema A
+      \
+Sistema B ----> Camada de Integração ----> Sistema C
+      /
+Sistema D
+
+Esse intermediário pode ser:
+    ESB (Enterprise Service Bus)
+    API Gateway
+    Middleware
+    Plataforma de integração
+
+Características
+    Integração centralizada
+    Uso de padrões
+    Menor acoplamento
+    Maior governança
+
+Vantagens
+✅ Melhor escalabilidade
+✅ Menor dependência direta entre sistemas
+✅ Integração mais organizada
+✅ Facilita manutenção
+
+Desvantagens
+❌ Maior complexidade inicial
+❌ Necessidade de arquitetura bem planejada
+
+
+////////////////////////////////////  Estilos de integração  ///////////////////////////////////////////////
+
+Mensagems - Nesse estilo, sistemas se comunicam enviando mensagens através de um broker ou fila.
+    RabbitMQ
+    Apache Kafka
+    ActiveMQ
+        Sistema A → Fila/Mensagem → Sistema B
+
+Vantagens
+✅ Baixo acoplamento
+✅ Comunicação assíncrona
+✅ Alta escalabilidade
+Desvantagens
+❌ Mais complexo de monitorar
+❌ Pode haver atraso no processamento
+
+
+Transferência de arquivos - Integração feita através da troca de arquivos entre sistemas.
+Exemplos:
+    CSV
+    XML
+    JSON
+    TXT
+Arquivos geralmente são enviados via:
+    FTP
+    SFTP
+
+    compartilhamento de rede
+        Sistema A → gera arquivo → Sistema B lê o arquivo
+Vantagens
+✅ Simples de implementar
+✅ Muito usado em sistemas legados
+Desvantagens
+❌ Processamento geralmente em lote
+❌ Não é em tempo real
+
+
+Compartilhamento de dados - Nesse modelo, vários sistemas acessam o mesmo banco de dados.
+Sistema A
+        \
+         → Banco de Dados
+        /
+Sistema B
+
+Vantagens
+✅ Simples de implementar
+✅ Sem necessidade de API
+
+Desvantagens
+❌ Forte acoplamento
+❌ Mudanças no banco podem quebrar sistemas
+❌ Problemas de concorrência
+Hoje é considerado uma prática ruim em arquiteturas modernas.
+
+
+Chamadas de procedimentos (RPC) - Nesse modelo, um sistema chama diretamente uma função ou método em outro sistema remoto.
+Exemplos:
+    gRPC
+    Apache Thrift
+        Sistema A → chama função → Sistema B
+Vantagens
+✅ Comunicação rápida
+✅ Interface bem definida
+Desvantagens
+❌ Alto acoplamento
+❌ Dependência direta do serviço
+
+
+SOA (Arquitetura orientada a serviços) - SOA organiza sistemas em serviços reutilizáveis. Cada serviço oferece funcionalidades que podem ser usadas por outros sistemas. Muito comum em sistemas corporativos.
+    Serviço de Cliente
+    Serviço de Pagamento
+    Serviço de Pedidos
+Esses serviços podem ser consumidos por vários sistemas.
+
+
+ETL (Extração, transformação e carregamento de dados) - ETL é usado principalmente para integração de dados, especialmente em Data Warehouses.
+| Etapa     | O que faz           |
+| --------- | ------------------- |
+| Extract   | Extrai dados        |
+| Transform | Transforma os dados |
+| Load      | Carrega no destino  |
+
+
+
+Eventos - Nesse modelo, sistemas reagem a eventos que acontecem no sistema.
+Pedido criado → evento publicado
+                ↓
+Sistema de estoque atualiza
+Sistema de faturamento processa
+Sistema de entrega agenda envio
+
+Vantagens
+✅ Baixo acoplamento
+✅ Escalabilidade
+✅ Reatividade em tempo real
+Desvantagens
+❌ Complexidade maior
+❌ Difícil rastrear fluxo de eventos
+
+
+Resumão:
+
+| Estilo                    | Como funciona                       |
+| ------------------------- | ----------------------------------- |
+| Mensagens                 | Sistemas trocam mensagens por filas |
+| Arquivos                  | Troca de arquivos entre sistemas    |
+| Compartilhamento de dados | Sistemas usam o mesmo banco         |
+| RPC                       | Um sistema chama funções de outro   |
+| SOA                       | Serviços reutilizáveis              |
+| ETL                       | Integração de dados para análise    |
+| Eventos                   | Sistemas reagem a eventos           |
+
+
+////////////////////////////////////  Apostila Aula 2   ////////////////////////////////////
 
 Integração Ponto a Ponto - Conhecida por sua simplicidade de implementação e é especialmente útil para integrações básicas entre dois sistemas;
 
@@ -18,14 +228,26 @@ Essa abordagem facilita a comunicação eficiente e contínua entre diferentes b
 Integração por barramento - Flexibilidade para remover ou adicionar serviços;
 Parte negativa: Complexidade da configuração e gerenciamento do barramento de serviços;
 
-O que é um barramento?
+Um barramento funciona como uma via central de comunicação entre diferentes aplicações.
+Exemplo conceitual:
+
+    Sistema A \
+    Sistema B  \
+    Sistema C -----> Barramento -----> Sistema D
+    Sistema E  /
+    Sistema F /
 
 
 Integração por mensageria - Comunicação assíncrona que permite o desacoplamento entre sistemas;
 Necessidade de gerenciar a consistência e a ordem das mensagens;
 Permite que o sistema troque mensagens mesmo quando não estão em execução simultânea;
 
-O que é um broker? Gerenciamento de Filas;
+Um broker de mensagens (Message Broker) é um software que gerencia o envio, armazenamento e entrega de mensagens entre aplicações. Ele funciona como um mediador da comunicação.
+    Sistema A (produtor) → Broker → Sistema B (consumidor)
+
+🔁 Gerenciamento de Filas (Queue Management)
+    Um dos papéis principais do broker é gerenciar filas de mensagens.
+    Uma fila (queue) é uma estrutura onde as mensagens ficam armazenadas até serem processadas.
 
 
 Integração por microsserviços
@@ -33,28 +255,75 @@ Escalabilidade e manutenção facilitadas por meio de serviços independentes e 
 Coordenação e gerenciamento complexos entre os microsserviços;
 
 
-////////////////////// API //////////////////////////////
+////////////////////// API: Aula 3 //////////////////////////////
+
+Application Programming Interface;
+- Simplifica o desenvolvimento, pois não é necessário desenvolver telas para cada funcionalidade.
+- Facilita a comunicação entre sistemas.
+
+Quem cria a API está disponibilizando acesso a dados importantes e também ao sistema que a API está.
+
+- API pública: 
+    API aberta para uso público
+    Geralmente adota alguma abordagem de limitação de requisição
+    Pode adotar algum tipo de autenticação
+
+- API privada:
+    API para sistemas de uma própria empresa/organização/sistema.
+    Sempre exigirá algum tipo de autenticação.
+
+- API de terceiros
+    Uma API com fins comerciais para fornecer algum serviço.
+    Sempre exigirá autenticação
+
+
+Normalmente utiliza-se para transferência de arquivos:
+- JSON
+- XML
+
 
 Requisição HTTP ->
-
-Header
-Body
+Método: Determina que tipo de requisição está sendo feito?
+Path: URL que está sendo acessado
+Versão do protocolo: Qual versão do HTTP está sendo utilizada;
+Header: Configurações de requisição;
+Body: Os dados que estamos querendo enviar;
 Verbo
-Path
-Versão (?)
 
 Response -> 
+Código do Status
+Mensagem do Status
+Versão do protocolo
 Header
 Body
-Status
-Mensagem do Status
-Versão
-
-Trabalho -> Procurar API Pública e consumir a API fazendo uma requisição do tipo GET;
 
 
-Descrição da API;
-Passo a Passo;
-Print do Resultado
+Quais os métodos existentes?
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+- HEAD
+- OPTIONS
+- TRACE
+
+- GET → "Me mostra"
+- POST → "Cria isso pra mim"
+- PUT → "Troca por esse"
+- PATCH → "Ajusta só esse pedaço"
+- DELETE → "Apaga isso"
+- HEAD → "Me mostra só o cabeçalho"
+- OPTIONS → "O que você aceita?"
+- TRACE → "Repete o que eu falei"
 
 
+- Uniformidade: todas as requisições para o mesmo endpoint, devem receber a mesma resposta, independente de onde vieram;
+
+- Desacoplação: A API deve ser independente de um client, não pode interagir com a aplicação, apenas retornar respostas, baseadas na requisição;
+
+- Stateless: as requisições não tem state, ou seja, cada uma é única e essa responsabilidade de sessão é dada a aplicação que a consulta;
+
+- Cache: Quando possível as respostas devem ser cacheadas, melhorando a performance;
+
+- Arquitetura de camadas: A arquitetura da API pode ser composta por camadas, fazendo com que um componente não possa acessar um superior, sem passar pelo intermediário;

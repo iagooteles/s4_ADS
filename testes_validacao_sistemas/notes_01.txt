@@ -145,18 +145,29 @@ CAST - Certified Associate in Software Testing
 
 
 
+Exercícios:
+
+Para se conduzir e avaliar a qualidade da atividade de teste, têm-se algumas técnicas possíveis que se baseiam em diferentes critérios. Independentemente de a qual técnica determinado critério pertence, o papel de todo e qualquer critério de teste é derivar requisitos de teste que, de forma direta ou indireta, particionam o domínio de entrada do produto em teste, forçando o testador a selecionar ao menos um elemento de cada subdomínio para poder satisfazer o critério em questão. Desse modo, critérios mais rigorosos particionam mais o domínio de entrada do que critérios menos rigorosos. Sobre as técnicas que podem ser utilizadas, marque a opção que relaciona estas técnicas:
+
+    Técnica funcional, técnica estrutural e técnica baseada em defeitos.
+
+Times ágeis são equipes de trabalho que atuam baseadas em metodologias ágeis. Na prática isso significa que colaboradores estão mais integrados, conectados e focados em entregas para o cliente. O trabalho não é rápido, acelerado, com um gestor pressionando as pessoas. O foco é na comunicação constante e troca de informações em equipe. Na verdade, a atuação é mais orientada a testar, coletar feedbacks e aplicar esforços dedicados no desenvolvimento do projeto. Com isso, assinale a alternativa que contém as três principais características de times ágeis:
+
+    Multidisciplinaridade, auto-organização e autossuficiência.
 
 
+O conceito de qualidade tem hoje importância fundamental para alavancar a competitividade das empresas. Atualmente, a preocupação com a qualidade deixou de ser um diferencial competitivo e passou a ser um pré-requisito básico para participação no mercado.
+
+Fonte: QUALIDADE de Software - Engenharia de Software 29. DEVMEDIA, 2010. Disponível em: https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209. Acesso em: dez de 2022.
+
+Consciente da importância da qualidade, marque a alternativa que melhor indica o seu significado:
+
+    Qualidade significa avaliar algo em termos que atenda um grau positivo ou negativo em relação à excelência.
 
 
+A qualidade de software visa assegurar tanto a qualidade do processo como a qualidade do produto. Este segundo pode ser um documento de requisito ou até o executável de um programa. Além disso, quando se trata de qualidade do processo, existem várias iniciativas de melhoria que objetivam melhorar os procedimentos empresariais em relação às ações da empresa para construção dos seus sistemas. Sabendo disso, qual das alternativas abaixo possui exemplos de modelo de melhoria de processos de software?
 
-
-
-
-
-
-
-
+    CMMI, MPSBr, ISO/IEC 15504
 
 
 

@@ -1,0 +1,23 @@
+
+
+Atalhos -> 
+
+    Câmera - Rodinha do mouse
+        Shift + Scroll: Movimentação de camera x + y;
+
+    TAB - Modo de edição
+
+    G - Mover;
+
+    R - Rotacionar;
+
+    S - Scale / Redimensionar ( tamanho );
+
+    R - Estrude;
+
+    Ctrl + R - Divisão;
+- 
+- 
+- 
+- 
+
