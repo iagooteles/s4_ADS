@@ -61,8 +61,19 @@ A questão da segurança deve, portanto, ser considerada não apenas durante o d
 ///////// 2. Ferramentas de apoio e os modelos de avaliação de maturidade em segurança de software ///////////
 
 
+BSIMM - 
 
+ISMM - Information security maturity model - 
+    Níveis de conformidade - É difícil para os profissionais de segurança e tomadores de decisão saberem que nível de proteção estão obtendo de seus investimentos em segurança. É ainda mais difícil estimar quão bem esses investimentos podem ser esperados para proteger suas organizações no futuro, pois as políticas de segurança, regulamentos e o ambiente de ameaças estão mudando constantemente. 
 
+    Nenhuma conformidade - Inexistência de políticas e procedimentos para proteger o negócio; Aqui a administração não considera o investimento em sistemas relacionados à segurança necessários para estratégias gerais do negócio;
 
+    Conformidade - Significa que todas as especificações relevantes para a TI da empresa são comprovadamente observadas.
+
+    Conformidade total - Caracteriza-se por ter controle sobre as necesidades de segurança da organização, monitorar os sistemas, estar atento às ameaças;
+
+OpenSAMM 
+
+BSIMM
 
 

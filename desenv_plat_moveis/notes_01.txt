@@ -102,6 +102,27 @@ Adicionar a dependencia => mudar a versão para o 8.0.0
 import { db } from './firebaseConfig';
 
 
+////////////////////////////////////////////
+
+API - Application Programming Interface;
+
+Requisições HTTP - 
+
+GET
+POST 
+DELETE 
+PUT 
+
+Princípios REST
+Stateless - Cada requisição é independente;
+Client-Server - Separação entre o cliente e o servidor;
+Cacheability - Respostas podem ser armazenadas em cache;
+Uniform Interface - Interface padronizada (URI, URL, métodos HTTP)
+Layered System - Possibilidadede camadas intermediárias;
+
+Endpoint -> Combinação da URL com o método HTTP;
+
+
 
 
 
