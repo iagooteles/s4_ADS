@@ -1,0 +1,68 @@
+///////// 1. Ciclo de desenvolvimento de software seguro: vulnerabilidades de software ///////////
+
+Ciclo de desenvolvimento Seguro - SDLC - Software Development Life Cycle - criação de software de alta qualidade; metodologia repetitiva; garantir qualidade do código a cada ciclo; 
+
+"Preço e velocidade são mais importantes para o MERCADO do que a qualidade";
+
+Fases de desenvolvimento de software segundo a metodologia SDLC -> 
+
+- Análise de requisitos;
+
+- Planejamento;
+
+- Projeto de software, como projeto arquitetônico;
+
+- Desenvolvimento de software;
+
+- Teste;
+
+- Implantação;
+
+- Manutenção
+
+
+Modelo linear: sequencial, uma vez concluída, essa fase leva ao início do próximo nivel;
+
+Modelo iterativo: Cuida que todas as fases do modelo devem ser retomadas no futuro;
+
+A documentação fornece comunicação entre todos os grupos envolvidos com o desenvolvimento, por um lado, e o controle do processo do projeto, por outro.
+
+
+Problemas na qualidade do software - 
+
+Processo de análise dos cenários de caso de uso - 
+
+
+Para criar um modelo de ataque, realize as seguintes ações: Selecione os padrões de ataque relevantes para o software. Crie casos de uso indevido em torno desses ataques (padrões). Inclua qualquer pessoa que possa ter acesso ao software porque as ameaças devem abranger as potenciais fontes de perigo para ele. 
+
+
+
+ANÁLISE - Antes de iniciar o desenvolvimento, precisamos descobrir o que exatamente deve ser criado. É quando começa a fase de análise do ciclo de vida do desenvolvimento de software. Para criar um produto funcional e relevante, é preciso descobrir o que já existe no mercado e o que ainda está por vir. Ou seja, estamos procurando as lacunas que precisam ser preenchidas.
+
+PLANEJAMENTO - Uma vez que sabemos o que vamos fazer, é necessário determinar como vamos fazêlo: qual é o nosso objetivo final, o que exatamente deve ser feito para alcançá-lo, o que vem primeiro e por último, etc. O desenvolvimento de software A fase de planejamento do ciclo de vida tem tudo a ver com a distribuição de tempo, recursos e esforços.
+
+PROJETO - A fase de projeto no ciclo de vida de desenvolvimento de software é o início da criação. Uma vez que o propósito e a especificação do produto são determinados, um desenvolvedor criará um design de projeto. O design geralmente inclui descrições de componentes de baixo nível, algoritmos e a visão geral da arquitetura.
+
+DESENVOLVIMENTO - Uma vez que o produto foi projetado, a escrita do código real começa. É quando ocorre a fase de desenvolvimento. Agora, um desenvolvedor surge com um programa executável, que realizará tarefas específicas e alcançará os resultados esperados.
+
+DESENVOLVIMENTO ÁGIL - O gerenciamento de projetos clássico e rígido, com seus objetivos claramente definidos, só faz sentido até certo ponto sob as condições da digitalização. Os métodos ágeis de desenvolvimento de software são muito mais promissores hoje.
+
+TESTE - Para garantir a qualidade do produto, quaisquer novas alterações devem ser cuidadosamente verificadas antes de serem implantadas. A fase de teste do ciclo de vida de desenvolvimento de software ajuda a reduzir erros, encontrar falhas e formas de melhorá-los, expondo o código a um ambiente semelhante à experiência do usuário final. Basicamente, é assim que os desenvolvedores levam o projeto à perfeição.
+
+IMPLANTAÇÃO - Quando os testes terminarem e tudo tiver sido dito e feito, é hora de aplicar todas as mudanças nas quais estamos trabalhando. O produto fica disponível para os clientes durante a fase de implementação no SDLC.
+
+MANUTENÇÃO - Um produto final pode se assemelhar a algum tipo de ser vivo peculiar que respira e muda. A fase de manutenção do SDLC visa verificar seus sinais vitais, mantê-lo funcionando e analisar seu comportamento
+
+
+A questão da segurança deve, portanto, ser considerada não apenas durante o desenvolvimento, mas ao longo de todo o ciclo de vida do software. O SDLC enriquece as etapas do ciclo normal de desenvolvimento com controles que garantem que a segurança seja incorporada do início ao fim
+
+
+
+///////// 2. Ferramentas de apoio e os modelos de avaliação de maturidade em segurança de software ///////////
+
+
+
+
+
+
+

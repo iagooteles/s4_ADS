@@ -14,6 +14,3 @@ Risco: Falhas e bugs levam ao risco;
 
 
 2. Variáveis de ambiente, descritores, nome e conteúdo de arquivos
-
-CONTINUAR DESSE TÓPICO DA APOSTILA;
-

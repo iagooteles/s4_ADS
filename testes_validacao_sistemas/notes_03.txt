@@ -1,0 +1,62 @@
+//////////////////////////////////  1. Planejamento de testes: plano de testes, definição de critérios de qualidade do produto e do processo. //////////////////////////////////////
+
+Plano de testes -> 
+Algumas instituições seguem, por exemplo, a norma ISO/IEC/IEEE 29119, que é um padrão internacional para área de teste de software publicado em meados de 2013;
+
+
+
+Definição de critérios de qualidade do produto e do processo ->
+
+TMMI (Test Maturity Model integration) -> Modelo de maturidade de teste detalhado desenvolvido pela fundação TMMI, para alcançar a melhoria do processo de teste, e está posicionado como sendo complementar ao CMMI. 
+
+TPI (Test Process Improvement) ->
+
+MPT BR (Melhoria do processo de Teste Brasileiro)
+
+
+///////////////// 2. Documentação e gestão do projeto de testes, gestão de configuração e versionamento.  ///////////////////
+
+
+Gerenciamento de mudanças - visa garantir que a evolução do sistema seja um processo gerenciado e que seja dada prioridade às mudanças mais urgentes e de custo-benefício.
+
+
+///////////////// 3. Tipos de testes: integração, regressão, funcional, usabilidade, desempenho, carga, aceitação, volume. ///////////////////
+
+
+Teste de componente (Teste de unidade) - É responsável por analisar os aspectos inerentes aos módulos do programa, bem como unidades menores, como por exemplo, classes e objetos; Cada parte de programa é testada separadamente de forma isolada;
+
+teste de integração - A preocupação aqui é garantir que ao integrar o componente A ao componente B, não haja defeitos decorrentes dessa união.
+
+Teste de sistema - verifica se a aplicação está funcionando como um todo. a integração da aplicação com o ambiente operacional similar ao de produção é testada.
+
+Teste de aceite - É verificado se a solução obedece aos critérios definidos no plano de aceitação. Traduz-se na verificação da satisfação do cliente e do usuário com a solução como um todo.
+
+Teste de manutenção - Avalia se determindada mudança em algum aspecto resultou em falhas no seu funcionamento como um todo.
+
+
+
+Tipos de testes por objetivo do teste:
+
+Teste funcional - 
+
+Teste não funcional 
+
+Teste estrutural ( Teste de caixa branca ) - Foca em verificar as estruturas internas de um sistema, avaliando de forma minuciosa o comportamento interno de todos os componentes da estrutura do software.
+
+Teste de regressão - Confere em aferir se ao inserir novas funcionalidades em um determinado sistema não gera novos defeitos. Responsável por garantir que todos os componentes que já existem no sistema permanecem funcionando da forma esperada.
+
+
+Testes não funcionais - Tem como objetivo testar aspectos do software que não são associados a funcionalidades, mas sim a restrições.
+
+
+
+///////////////// 4. Estágios de testes: caixa branca, caixa preta, unitário, integração sistema, aceitação /////////////////
+
+vídeos já vistos...
+continuar daqui unidade 4-> 
+
+
+
+tecnica de caixa preta
+
+partição de equivalencia - Se refere a regras de negócio;

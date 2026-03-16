@@ -1,9 +1,61 @@
 Completar jornada do monitor bloco de comunicação -> Prazo dia 30 de março;
 
 
+É hora de refletir sobre o assunto do artigo que você vai desenvolver para submeter no Encontro de Iniciação a Docência em agosto de 2026.
+
+É importante que você converse com o seu professor sobre as suas ideias e que problematize assuntos relacionados a aprendizagem e aos conteúdos da disciplina em que atua como monitor.
+
+Lembramos que de acordo com as resoluções CNS nº 466/2012 e 510/2016, todo projeto de pesquisa envolvendo Seres Humanos deve ser submetido à apreciação de um Comitê de Ética em Pesquisa (CEP) entes de ser iniciado.
+
+Disponibilizamos um modelo para te guiar!
+
+A ESTRUTURA DO SEU ARTIGO DEVE TER ATÉ 2 LAUDAS!
+
+Você tem até o dia 30 de março para concluir esta atividade.
+
+Bom trabalho!
+
+Modelo do artigo -> 
+Estrutura Preliminar para elaboração do artigo - DEVE SER FEITO EM ATÉ 2 LAUDAS
+Aluno:
+Matrícula:
+Disciplina:
+
+PROPOSTA DE TÍTULO DO ARTIGO:
+
+CONTEXTUALIZAÇÃO: aqui você deve escrever/descrever o contexto de onde partiu a problemática identificada para o desenvolvimento do artigo da monitoria.
+
+PROBLEMÁTICA: escrever o problema que identiticou no contexto da monitoria (algo que chamou sua atenção). Uma pergunta que inicie com: O que? Qual? Quais? Como?, uma problemática que demanda uma investigação. 
+
+OBJETIVO GERAL: aqui você deve apresentar a ideia central do trabalho, expressando de forma clara a intenção da pesquisa. Escrever um verbo no infinitivo, o objetivo do artigo é uma proposição para resolver o problema estabelecido, o que irá apresentar ao final do artigo a partir do emprego das estratégias metodológicas empregados ao longo do estudo. 
+
+METODOLOGIA: aqui você deve escrever os meios para atingir esse objetivo, podendo incluir procedimentos experimentais, análises teóricas ou estatísticas, relato de experiência, dentre outros. Ou seja, a metodologia é o como, como executou a pesquisa. 
 
 
 
 
+Estou pensando no seguinte tema/artigo:
+
+Título: me ajude com isso
+
+Contexto: Os alunos sentem muita dificuldade em visualizar como funciona POO no começo do curso; 
+Quero criar um jogo, no terminal, feito em java, com algumas interfaces gráficas, que ajudem o aluno a interpretar e entender os conceitos iniciais, assim como princípios no POO, colocando a sensação de 'passar de fase' e de evolução;
+
+Esse jogo teria opções, no qual o aluno teria que interagir através de cli, e criar uma 'jornada do herói' a fim de dar a sensação de que o aluno está passando de fase a cada vez que vai aprendendo, por exemplo, a 'primeira fase' seria sobre os conceitos gerais, aborariamos questões como: o que são atributos / métodos, a diferença de classe e objeto, construtores, e a fase usaria a interação com o aluno através da cli, dando a ele opções, podendo mostrar, inclusive, como seria o código para o mesmo se ele perguntasse, até trazer links de docs se necessário... Por exemplo No começo o aluno escolheria entre 3 classes: mago, guerreiro e arqueiro, isso mostraria os atributos de cada uma das classes como HP, força, inteligencia, speed, etc... e mostraria tbm uma interface de uma espada, cajado ou arco... nesse ponto viria um 'resuminho' para o aluno, explicando os conceitos e metodos e atributos e como seria o instanciamento do Player caso ele escolhesse cada uma das classes; a 'segunda fase' poderia ser dos pilares do POO: abstração, herança, polimorfismo e encapsulamento... Dessa forma, o aluno interagiria com estes conceitos, somando pontos e dando a ele achievments a fim de gameficar esse aprendizado;
+
+A princípio penso em apenas 3 fases; depois podemos ver mais sobre isso;
+Uma interface gráfica simples poderia ser utilizada, como representação de personagem através da cli, casas, weapons, etc...
+
+
+Quero que vc me ajude com o preenchimento desse artigo, elaborando essa ideia de dando os conceitos principais que preciso para trabalhar nessa ideia:
+Contextualização
+Problemática
+Objetivo Geral
+Metodologia
+
+
+
+
+Ao final de cada fase, pode-se ter um quiz para avaliar o aprendizado do aluno;
 
 
