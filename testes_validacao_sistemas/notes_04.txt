@@ -1,0 +1,31 @@
+Vídeo 1 visto!
+ML não visto
+Vídeo 2 não visto
+
+//////////////////////////////////  1.  //////////////////////////////////////
+
+Pirâmide dos testes - 
+
+
+Automação de testes - Scripts construídos para o usar o sistema no lugar de pessoas; Mais rápido na execução dos testes e encontro de possíveis erros; - Diminuir custos - Roda 24hrs/dia dependendo de como for programado - Aumenta a produtividade do desenvolvimento de software - Aumenta a qualidade do produto final;
+
+Testes de regressão - 
+
+Smoke Tests - 
+
+Tarefas repetitivas - 
+
+Cálculos matemáticos - 
+
+Funcionalidades críticas - 
+
+Técnicas de automação:
+    KDT - Keyword-driven testing - 
+    DDT - Data-driven testing - 
+    DSL - Domain Specific Language - 
+    Recorde e playback - 
+    Negar validadores - 
+
+
+///////////////// 2.   ///////////////////
+

@@ -53,10 +53,22 @@ Testes não funcionais - Tem como objetivo testar aspectos do software que não 
 ///////////////// 4. Estágios de testes: caixa branca, caixa preta, unitário, integração sistema, aceitação /////////////////
 
 vídeos já vistos...
-continuar daqui unidade 4-> 
+Fazer exercícios
 
 
+A testabilidade se caracteriza pelo quão fácil um determinado sistema pode ser testado.
 
-tecnica de caixa preta
+Teste de caixa branca - Também conhecido como teste estrutural - baseia-se na forma como o programa trabalha internamente. A análise da estrutura do programa é uma forma de procurar lacunas nos testes funcionais;
+
+Teste de caixa preta - Faz referência a testes realizados na interface do software.
+
+Tabela de decisão - 
+
+Teste de transição de estado - 
+
+Teste de caso de uso - 
 
 partição de equivalencia - Se refere a regras de negócio;
+
+dia 23 - Simulado enade ;
+
