@@ -14,3 +14,10 @@ Risco: Falhas e bugs levam ao risco;
 
 
 2. Variáveis de ambiente, descritores, nome e conteúdo de arquivos
+
+Uma prática recomendada para a maioria das linguagens de programação e paradigmas é evitar o uso de variáveis globais.
+
+Algumas variáveis de ambiente são perigosas porque muitas bibliotecas e programas são controlados por variáveis de ambiente de maneiras obscuras, sutis ou não documentadas
+
+
+
