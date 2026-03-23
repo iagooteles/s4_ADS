@@ -1,11 +1,8 @@
-Vídeo 1 visto!
 ML não visto
-Vídeo 2 não visto
 
-//////////////////////////////////  1.  //////////////////////////////////////
+/////////////////  1. Tipos de ferramentas de automação de testes //////////////////////////////////////
 
-Pirâmide dos testes - 
-
+Em situações em que as funcionalidades são pouco usadas, não convém implantar a automação de testes, seria despedício de tempo e esforço;
 
 Automação de testes - Scripts construídos para o usar o sistema no lugar de pessoas; Mais rápido na execução dos testes e encontro de possíveis erros; - Diminuir custos - Roda 24hrs/dia dependendo de como for programado - Aumenta a produtividade do desenvolvimento de software - Aumenta a qualidade do produto final;
 
@@ -20,12 +17,26 @@ Cálculos matemáticos -
 Funcionalidades críticas - 
 
 Técnicas de automação:
-    KDT - Keyword-driven testing - 
-    DDT - Data-driven testing - 
+    KDT - Keyword-driven testing - Teste orientado por palavra-chave; 
+
+    DDT - Data-driven testing - Teste orientado a dados; Teste parametrizado... 4 passos: 
+        Arquivos com dados de teste;
+        Método para leitura do arquivo;
+        Método para transformar cada linha do arquivo em um cenário de teste;
+        Método de teste;
+    
     DSL - Domain Specific Language - 
+
     Recorde e playback - 
+
     Negar validadores - 
 
 
-///////////////// 2.   ///////////////////
+///////////////// 2. Critério para automação e os cuidados para implantação ///////////////////
+
+
+Frequência de uso - O quanto o teste é executado durante lançamentos do sistema, se for muito testado manualmente, é um forte candidato a ser automatizado.
+
+Continuar de Complexidade para automatizar; 
+
 
