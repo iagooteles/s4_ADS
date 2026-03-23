@@ -37,6 +37,72 @@ Técnicas de automação:
 
 Frequência de uso - O quanto o teste é executado durante lançamentos do sistema, se for muito testado manualmente, é um forte candidato a ser automatizado.
 
-Continuar de Complexidade para automatizar; 
+Complexidade para automatizar - ;
+
+Compatibilidade e suporte de ferramentas ;
+
+Maturidade do processo de teste ;
+
+Adequação da automação para a fase do ciclo de vida do produto de software;
+
+Sustentabilidade do ambiente automatizado ; 
+
+Controle do sistema (pré-condições, configuração e estabilidade) ;
+
+Planejamento técnico em apoio à análise do ROI ; 
 
 
+1.1 - Cuidados para implantação da automação - Realizar um projeto pilo antes mesmo de implantar de forma oficial a automação de teste;
+
+
+///////////////// 3. Análise de viabilidade da automação dos testes /////////////////
+
+Construção de solução de automação:
+
+1 - Criação dos cenários de teste - ;
+
+2 - Análise do âmbito a automatizar - ;
+
+3 - Criação dos scripts automáticos - ;
+
+4 - Validação dos scripts - ; 
+
+5 - Execução de scripts automáticos - ;
+
+6 - Manutenção do script de teste - ;
+
+
+Viabilidade macro - Está ligada com o quão madura uma empresa se encontra para aderir aos processos de teste com um valor baixo e alta eficiência;
+
+Viabilidade micro - Se refere aos cenários de teste e quão veloz se consegue recuperar o investimento em dado cenário;
+
+"além de executar os scripts, é de extrema importância interpretar os resultados gerados"
+
+
+1.1.1 - Ferramentas para testes unitários - 
+
+JUnit - 
+PDPUnit - 
+MUnit - 
+TestNG - 
+Jest - 
+Unittest - 
+PyUnit - 
+
+1.1.2 - Ferramentas para automação de testes não funcionais - 
+
+JMeter - 
+Gatling - 
+Security AppScan - 
+Acunetix Vulnerability Scanner - 
+
+1.1.3 - Ferramentas para testes funcionais - 
+
+....
+
+
+
+///////////////// 4. Ferramentas de teste: processos de verificação e validação de software; gestão de testes, defeitos, indicadores de qualidade /////////////////
+
+
+CONTINUAR DAQUI;
