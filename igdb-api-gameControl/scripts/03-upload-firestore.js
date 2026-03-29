@@ -30,14 +30,40 @@ function parseArgs() {
   return { inPath, collection };
 }
 
+function resolveCredentialPath(keyPath) {
+  const trimmed = keyPath.trim();
+  return path.isAbsolute(trimmed)
+    ? trimmed
+    : path.resolve(process.cwd(), trimmed);
+}
+
 async function initFirebaseAdmin() {
   const keyPath =
     process.env.FIREBASE_SERVICE_ACCOUNT_PATH ||
     process.env.GOOGLE_APPLICATION_CREDENTIALS;
 
   if (keyPath) {
-    const abs = path.resolve(keyPath);
-    const json = JSON.parse(await fs.readFile(abs, "utf8"));
+    const abs = resolveCredentialPath(keyPath);
+    try {
+      await fs.access(abs);
+    } catch {
+      throw new Error(
+        `Arquivo de credenciais do Firebase não encontrado:\n  ${abs}\n\n` +
+          `Corrija FIREBASE_SERVICE_ACCOUNT_PATH (ou GOOGLE_APPLICATION_CREDENTIALS) no .env para o caminho ` +
+          `do JSON que você baixou no Console Firebase (Projeto → Contas de serviço → “Gerar nova chave privada”). ` +
+          `O nome costuma ser algo como *-firebase-adminsdk-*.json; não use placeholder ou arquivo que ainda não existe. ` +
+          `Dica: coloque o arquivo em ./secrets/ e use FIREBASE_SERVICE_ACCOUNT_PATH=./secrets/seu-arquivo.json`
+      );
+    }
+    let json;
+    try {
+      json = JSON.parse(await fs.readFile(abs, "utf8"));
+    } catch (e) {
+      throw new Error(
+        `Não foi possível ler o JSON de credenciais em:\n  ${abs}\n\n` +
+          (e instanceof SyntaxError ? "O conteúdo não é JSON válido.\n" : String(e))
+      );
+    }
     if (getApps().length === 0) {
       initializeApp({ credential: cert(json) });
     }
