@@ -13,6 +13,10 @@ import {
   sleep,
 } from "./lib/igdb.js";
 import { mapIgdbGameToFirestoreDoc } from "./lib/map-igdb-to-firestore.js";
+import {
+  filterMatureDisabled,
+  passesMatureContentFilter,
+} from "./lib/filter-mature-content.js";
 
 const { clientId, clientSecret } = getEnvCredentials();
 
@@ -26,6 +30,7 @@ const IGDB_GAME_FIELDS =
   "genres.name," +
   "involved_companies.developer,involved_companies.publisher,involved_companies.company.name," +
   "cover.image_id,url," +
+  "themes,age_ratings.rating_category.rating," +
   "total_rating,rating,rating_count,total_rating_count;";
 
 async function fetchGamesFullByIds(ids, token) {
@@ -77,7 +82,13 @@ async function main() {
     process.exit(1);
   }
 
-  console.error("Passo 2: enriquecendo", step1.length, "jogos (IGDB)…");
+  const filterMature = !filterMatureDisabled();
+  console.error(
+    "Passo 2: enriquecendo",
+    step1.length,
+    "jogos (IGDB)",
+    filterMature ? "(refiltra adulto/erótico)" : ""
+  );
   const token = await getAppAccessToken(clientId, clientSecret);
   const ids = step1.map((row) => row.id);
   const byId = await fetchGamesFullByIds(ids, token);
@@ -87,6 +98,10 @@ async function main() {
     const full = byId.get(row.id);
     if (!full) {
       console.error("Aviso: jogo id", row.id, "não retornado na segunda consulta.");
+      continue;
+    }
+    if (filterMature && !passesMatureContentFilter(full)) {
+      console.error("Filtrado no passo 2:", full.name ?? row.id);
       continue;
     }
     docs.push(
