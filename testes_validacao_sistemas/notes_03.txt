@@ -52,9 +52,6 @@ Testes não funcionais - Tem como objetivo testar aspectos do software que não 
 
 ///////////////// 4. Estágios de testes: caixa branca, caixa preta, unitário, integração sistema, aceitação /////////////////
 
-vídeos já vistos...
-Fazer exercícios
-
 
 A testabilidade se caracteriza pelo quão fácil um determinado sistema pode ser testado.
 
@@ -70,5 +67,29 @@ Teste de caso de uso -
 
 partição de equivalencia - Se refere a regras de negócio;
 
-dia 23 - Simulado enade ;
+
+Exercícios -> 
+
+Testes não funcionais têm como objetivo testar aspectos do software que não são associados a funcionalidades, mas sim a restrições. Tais testes visam verificar os requisitos que tendem a ser aqueles que “inspiram” a qualidade do sistema. Baseado no enunciado e no seu conhecimento, marque a alternativa que só contém testes do tipo não funcional:
+
+    Carga, estresse, usabilidade, interoperabilidade e segurança.
+
+
+
+O teste de software consiste em mais do que simplesmente avaliar as funções, a interface e as características de tempo de resposta de um objetivo do teste. Os testes adicionais devem se concentrar em características e atributos. Para conseguir isso, muitos tipos diferentes de teste são implementados e executados. Cada tipo de teste possui um objetivo e uma técnica de suporte específicos. O foco de cada técnica está em testar uma ou mais características ou atributos do objetivo do teste. Considerando o seu conhecimento e se colocando como analista de teste, indique qual o melhor tipo de teste a ser aplicado na seguinte situação: é necessário averiguar que o sistema não tenha outras falhas após a inserção de uma nova funcionalidade, ou seja, você precisa garantir que o que estava funcionando antes da nova funcionalidade continue funcionando perfeitamente.
+
+    Teste regressão.
+
+
+
+O teste caixa-branca fundamenta-se em um exame rigoroso do detalhe procedimental. Os caminhos lógicos do software e as colaborações entre componentes são testados, exercitando conjuntos específicos de condições e/ou ciclos. Desse modo, marque a alternativa que só possui técnicas de caixa-branca.
+
+    Grafo de fluxo de controle, teste de condição, teste de fluxo de dados e teste de ciclo.
+
+
+Durante o processo de desenvolvimento, o software e seus artefatos passam por uma série de modificações da sua concepção à implantação, da necessidade à continuidade. Não apenas durante a sua codificação, mas ao longo de todo o ciclo de vida do software, tratado ou não como serviço, as mudanças são inevitáveis e, por mais simples que se pareça, gerenciar essas alterações é uma tarefa árdua. Isso exige um nível de organização que permita a rastreabilidade e visibilidade a todos os interessados nos resultados gerados pelo sistema desenvolvido. Independente da metodologia utilizada no desenvolvimento, um processo fundamental para apoiar a equipe de desenvolvimento e permitir uma evolução segura e confiável precisa ser definido e mantido antes, durante e após a entrega do software. A Gestão de Configuração (GC) é esse processo tão essencial no desenvolvimento de software, mas que ocasionalmente é mal compreendida e aplicada de maneira incoerente em projetos de desenvolvimento, gerando retrabalho e, por vezes, impedindo o sucesso na implantação do software. Sobre o tema, marque a alternativa que melhor define o que é gerenciamento de configuração:
+
+    O gerenciamento de configuração está relacionado com as políticas, os processos e as ferramentas para o gerenciamento de mudanças dos sistemas de software.
+
+
 

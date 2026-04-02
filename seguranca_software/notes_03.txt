@@ -77,3 +77,64 @@ OpenSAMM
 BSIMM
 
 
+
+
+Questionário: 
+
+Leia o texto a seguir:
+
+“A obtenção de software seguro é uma atividade altamente complexa, que envolve vários fatores a serem considerados e práticas a serem executadas. Essa diversidade se apresenta como um fator de impedimento para as organizações interessadas no assunto, fato que induziu ao desenvolvimento de alguns processos como, por exemplo o Software Development Lifecycle (SDL) da Microsoft;além de modelos para profissionalizar um programa de segurança como, por exemplo, OpenSAMM (SAMM da Open Web Application Security Project (OWASP) e o BSIMM da Cigital” (FREIRE, 2014, p. 25).
+
+FREIRE, M. S. Ferramenta de apoio a auditoria de programa de segurança de software. Universidade de Brasília - UnB, 2014. Disponível em: https://fga.unb.br/articles/0000/5474/TCC_Matheus_Freire.pdf. Acesso em: 21 Jul. 2022.
+
+A partir desse contexto, podemos afirmar que:
+
+I - O Ciclo de Vida de Desenvolvimento de Software refere-se a uma metodologia com processos claramente definidos para a criação de software de alta qualidade.
+
+II - O Ciclo de Vida de Desenvolvimento de Software aumenta o custo de desenvolvimento de software, ao mesmo tempo em que aumenta o tempo de produção.
+
+III - O Ciclo de Vida de Desenvolvimento de Software atinge diversos benefícios a partir do desenvolvimento de um plano que elimina as armadilhas típicas dos projetos de desenvolvimento de software.
+
+IV - Como o Ciclo de Vida de Desenvolvimento de Software é uma metodologia repetitiva, devemos garantir a qualidade do código em cada ciclo.
+
+Está correto o que se afirma em:
+
+b. I, II, IV.
+
+
+
+Leia o texto a seguir:
+
+“Cada organização pode definir seus próprios processos e utilizar diferentes ciclos de desenvolvimento para seus produtos. A utilização de modelos de referência na produção
+
+de software é de grande valia, pois estabelece padrões que devem ser seguidos para a obtenção da melhoria contínua dos processos de desenvolvimento de software. Esta melhoria terá como consequência a qualificação permanente e crescente dos sistemas de informação” (DAL'OSTO, 2003, p. 9).
+
+DAL'OSTO, F. Método para Avaliação de Ambientes de Desenvolvimento de Software Combinando CMM e GQM. Universidade Federal do Rio Grande do Sul, 2003. Disponível em: https://lume.ufrgs.br/handle/10183/6818. Acesso em: 21 Jul. 2022.
+
+A partir desse contexto, podemos afirmar que:
+
+I - Existem muitos problemas e dificuldades para assegurar a segurança na computação. Tais problemas, em alguns casos, vêm à tona no processo de desenvolvimento do software; em outros, surgem apenas quando o software já está em uso.
+
+II – Poucos fatores parecem influenciar o desempenho do software, como por exemplo, o modelo de processo de software.
+
+III - É amplamente aceito que a avaliação de software pode ser limitada a verificação e teste do produto final, ou seja, o código de computador.
+
+IV - Os softwares modernos estão repletos de uma infinidade de bugs. Alguns deles são inerentes à complexidade do próprio software.
+
+Está correto o que se afirma em:
+
+d. I e IV, apenas.
+
+
+
+
+“Há diversos fatores que contribuem para que um projeto de software tenha êxito. Porém, se não soubermos quais foram estes fatores não poderemos repeti-los em nosso próximo projeto e de nada terá adiantado nosso sucesso no passado, pois a qualidade obtida em um produto não poderá ser reproduzida de forma contínua e a organização não haverá aprendido com a execução de projetos anteriores” (DAL'OSTO, 2003, p. 105).
+
+DAL'OSTO, F. Método para Avaliação de Ambientes de Desenvolvimento de Software Combinando CMM e GQM. Universidade Federal do Rio Grande do Sul, 2003. Disponível em: https://lume.ufrgs.br/handle/10183/6818. Acesso em: 21 Jul. 2022.
+
+A partir desse contexto, é correto afirmar que os requisitos de segurança devem estar vinculados aos objetivos de negócios por meio de uma:
+
+d. abordagem orientada a processos.
+
+
+
