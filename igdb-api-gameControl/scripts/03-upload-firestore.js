@@ -2,6 +2,9 @@
  * Passo 3: grava os documentos enriquecidos no Cloud Firestore.
  * ID do documento = String(igdbId) para upserts idempotentes.
  *
+ * Por padrão usa merge: só cria/atualiza. Documentos antigos que sumiram do JSON
+ * continuam no Firestore — use --prune para alinhar o banco ao arquivo.
+ *
  * Credenciais: arquivo JSON de conta de serviço (Firebase Console →
  * Configurações do projeto → Contas de serviço → Gerar nova chave privada).
  */
@@ -18,6 +21,7 @@ function parseArgs() {
   const args = process.argv.slice(2);
   let inPath = DEFAULT_IN;
   let collection = process.env.FIRESTORE_COLLECTION || DEFAULT_COLLECTION;
+  let prune = process.env.FIRESTORE_PRUNE_ORPHANS === "1";
   for (let i = 0; i < args.length; i++) {
     if (args[i] === "--in" && args[i + 1]) {
       inPath = args[i + 1];
@@ -25,9 +29,11 @@ function parseArgs() {
     } else if (args[i] === "--collection" && args[i + 1]) {
       collection = args[i + 1];
       i++;
+    } else if (args[i] === "--prune") {
+      prune = true;
     }
   }
-  return { inPath, collection };
+  return { inPath, collection, prune };
 }
 
 function resolveCredentialPath(keyPath) {
@@ -85,8 +91,39 @@ async function initFirebaseAdmin() {
   );
 }
 
+/**
+ * Remove documentos da coleção cujo ID não está em allowedIds.
+ * Cuidado: apaga também jogos criados manualmente na mesma coleção se não estiverem no JSON.
+ */
+async function pruneOrphans(db, collectionName, allowedIds) {
+  const allowed = new Set(allowedIds.map(String));
+  const snap = await db.collection(collectionName).get();
+  const toDelete = snap.docs.filter((d) => !allowed.has(d.id));
+  if (toDelete.length === 0) {
+    console.error("Prune: nenhum documento órfão (coleção já alinhada ao JSON).");
+    return 0;
+  }
+  const chunkSize = 400;
+  for (let i = 0; i < toDelete.length; i += chunkSize) {
+    const slice = toDelete.slice(i, i + chunkSize);
+    const batch = db.batch();
+    for (const doc of slice) {
+      batch.delete(doc.ref);
+    }
+    await batch.commit();
+    console.error(
+      "Prune: removidos",
+      Math.min(i + chunkSize, toDelete.length),
+      "/",
+      toDelete.length,
+      "documentos que não estão no JSON"
+    );
+  }
+  return toDelete.length;
+}
+
 async function main() {
-  const { inPath, collection } = parseArgs();
+  const { inPath, collection, prune } = parseArgs();
   const absIn = path.resolve(inPath);
   const raw = await fs.readFile(absIn, "utf8");
   const docs = JSON.parse(raw);
@@ -97,6 +134,11 @@ async function main() {
 
   await initFirebaseAdmin();
   const db = getFirestore();
+
+  const allowedIds = [];
+  for (const doc of docs) {
+    if (doc.igdbId != null) allowedIds.push(doc.igdbId);
+  }
 
   console.error(
     "Passo 3: enviando",
@@ -130,12 +172,53 @@ async function main() {
     console.error("Commit", Math.min(i + batchSize, docs.length), "/", docs.length);
   }
 
+  if (prune) {
+    console.error(
+      "Prune ativo: removendo da coleção qualquer documento cujo ID não está em",
+      path.basename(absIn),
+      "…"
+    );
+    await pruneOrphans(db, collection, allowedIds);
+  } else {
+    console.error(
+      "Dica: se o Firebase ainda tiver jogos antigos (ex.: 18+ já filtrados no JSON), rode com --prune ou FIRESTORE_PRUNE_ORPHANS=1 para apagar só o que não está no arquivo."
+    );
+  }
+
   console.error("Concluído.");
+}
+
+function printFirebaseAuthHelp(err) {
+  const code = err?.code;
+  const reason = err?.reason ?? err?.details?.reason;
+  const msg = String(err?.message ?? "");
+  const isAuth =
+    code === 16 ||
+    reason === "ACCOUNT_STATE_INVALID" ||
+    /UNAUTHENTICATED|invalid authentication/i.test(msg);
+  if (!isAuth) return false;
+  console.error(`
+--- Firebase / credenciais ---
+O Google rejeitou a conta de serviço (UNAUTHENTICATED / ACCOUNT_STATE_INVALID).
+
+O que fazer:
+1. Firebase Console → Configurações do projeto → Contas de serviço → "Gerar nova chave privada"
+   (ou Google Cloud → IAM → Contas de serviço → sua conta → Chaves → Adicionar chave JSON).
+2. Substitua o arquivo no caminho de FIREBASE_SERVICE_ACCOUNT_PATH no .env.
+3. Se a chave antiga foi revogada ou a conta desativada, só uma chave NOVA funciona.
+4. Confirme que o project_id no JSON é o projeto onde o Firestore está ativo.
+
+Detalhe: ${reason ?? code ?? msg.slice(0, 120)}
+`);
+  return true;
 }
 
 try {
   await main();
 } catch (err) {
   console.error(err);
+  if (!printFirebaseAuthHelp(err)) {
+    /* erro genérico já impresso acima */
+  }
   process.exit(1);
 }

@@ -8,7 +8,8 @@
     "igdb:01": "node scripts/01-fetch-top-games.js --out data/top-games.json",
     "igdb:02": "node scripts/02-enrich-games-for-firebase.js",
     "igdb:03": "node scripts/03-upload-firestore.js",
-    "igdb:pipeline": "npm run igdb:01 && npm run igdb:02 && npm run igdb:03"
+    "igdb:03:sync": "node scripts/03-upload-firestore.js --prune",
+    "igdb:pipeline": "npm run igdb:01 && npm run igdb:02 && npm run igdb:03:sync"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

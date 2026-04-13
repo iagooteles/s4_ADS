@@ -93,3 +93,38 @@ Durante o processo de desenvolvimento, o software e seus artefatos passam por um
 
 
 
+
+////////////////////////// 
+
+Estudos orientados 2:
+
+Testes de unidade: componente isolados;
+
+Teste de integração: comunicação entre módulos;
+
+teste de sistema: fluxo completo do produto;
+
+Teste de aceitação: necessidade do usuário atendida;
+
+______________________________________________________________
+CERTEZA CAIR UMA QUESTÃO DESSAS NA PROVA -> REVISAR O QUE SERIA CAIXA PRETA E CAIXA BRANCA:
+Técnicas caixa-preta: Foco no comportamento esperado do sistema; 
+
+Técnicas caixa-branca: Foco na estrutura interna do código (muito usado em testes unitários);
+    Cobertura de comandos, decisões e condições;
+______________________________________________________________
+
+testes funcionais: Validam regras de negócio, entradas, saídas;
+
+testes não funcionais: Desempenho, segurança, usabilidade e compatibilidade
+
+
+______________________________________________________________
+Vai cair -> 
+
+ERRO: 
+
+DEFEITO: O problema está no artefato;  
+
+FALHA: 
+

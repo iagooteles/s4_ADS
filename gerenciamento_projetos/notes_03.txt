@@ -140,3 +140,24 @@ V. O GERENCIAMENTO DOS RECURSOS HUMANOS DO PROJETO se preocupa em como proporcio
     I, II, III e V estão corretas.
 
 
+//////////////////////////////////////////////////////////////////////////
+
+Encontro virtual -> 
+
+Projeto -> esforço temporário, com início meio e fim, para alcançar um objetivo específico por meio de atividades inter-relacionadas e uso eficaz de recursos.
+
+Restrição tripla - O gerenciamento de projetos busca equilibrar 3 demandas conflitantes: Escopo, custo e tempo.
+
+PMBOK - Conjunto d emelhores práticas que aplica conhecimento e técnica para atender aos requisitos do projeto.
+
+Áreas de PMBOK - 
+
+Gestão do escopo - 
+
+Gestão do cronograma -
+
+Gestão de custos - 
+
+
+Definição clara do escopo em um projeto -> 
+

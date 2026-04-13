@@ -57,6 +57,8 @@ export function passesMatureContentFilter(game) {
     const n = norm(label);
     if (BLOCKED_RATING_LABELS.has(n)) return false;
     if (n.includes("adult only") || n.includes("adults only")) return false;
+    // PEGI e similares só com número (ex.: "12", "18")
+    if (/^\d{1,3}$/.test(n) && Number.parseInt(n, 10) >= 18) return false;
   }
 
   return true;

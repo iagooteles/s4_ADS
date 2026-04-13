@@ -138,3 +138,18 @@ d. abordagem orientada a processos.
 
 
 
+////////////////////////// 
+Estudos orientados 2:
+
+Ciclo de desenvolvimento de software - 
+
+5 fases -> 
+analise
+projeto
+...
+...
+...
+
+
+
+______________________________________________________________
