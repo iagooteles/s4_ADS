@@ -138,6 +138,92 @@ d. abordagem orientada a processos.
 
 
 
+
+“A construção de um software seguro exige atenção constante de toda a equipe de desenvolvimento. No entanto, segurança de informação da engenharia de software são duas grandes áreas em si e geralmente são apresentadas tanto a estudantes de graduação quanto a profissionais de forma isolada, sem interseção. Apesar disso, há na literatura diversos trabalhos que abordam ferramentas, metodologias e processos disponíveis para evitar a inclusão de vulnerabilidades bem como incorporar e avaliar a segurança durante o desenvolvimento dos sistemas e após sua implantação.”
+
+A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas.
+
+I. Os modelos BSIMM e OpenSAMM são organizados de forma semelhante e contêm muitos tópicos e atividades semelhantes.
+
+POIS:
+
+II. Ambos dividem as práticas de segurança de software em três áreas principais com doze práticas no total, e colocam as práticas em três níveis de maturidade.
+
+A seguir, assinale a alternativa correta:
+
+    As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
+
+
+
+
+
+Leia o texto a seguir:
+
+“A integração de práticas de segurança no ciclo de vida de desenvolvimento de software ainda é um desafio. No entanto, se aliada a verificação da segurança das funcionalidades do aplicativo, é possível reduzir os riscos de fontes internas e externas. Portanto, a prevenção ajuda a diminuir custos das empresas porque elas não precisam responder a
+
+incidentes ou lidar com danos à sua reputação. Incorporar um modelo que adeque requisitos de segurança ao software, como a integração de ferramentas e serviços de testes automatizados ajudam os desenvolvedores a encontrar e corrigir problemas de segurança, prevenindo problemas futuros” (MALACARNE e CAMARGO, 2021, p. 8).
+
+A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas.
+
+I. O Modelo de Maturidade do Software Assurance (Software Assurance Maturity Model - SAMM or OpenSAMM) é uma estrutura de segurança de software dividida em quatro funções de negócios: Governança, Construção, Verificação e Implantação.
+
+POIS:
+
+II. Cada prática é avaliada em um nível de maturidade de 1 a 3 (onde 0 está atrelado com o elemento “não maturidade”), e para cada nível de maturidade há um objetivo e duas atividades que têm de ser cumpridas para atingir esse nível.
+
+A seguir, assinale a alternativa correta:
+
+
+    ✔️ Entendendo cada asserção
+    🔹 I — Verdadeira
+
+    O OpenSAMM (Software Assurance Maturity Model) realmente é estruturado em 4 funções de negócio:
+
+    Governança (Governance) → estratégia, políticas e gestão de segurança
+    Construção (Construction) → desenvolvimento seguro (boas práticas de código)
+    Verificação (Verification) → testes de segurança (análise estática, dinâmica, etc.)
+    Implantação (Deployment) → segurança na entrega e operação
+
+    👉 Isso define como a segurança é organizada dentro da empresa.
+
+
+    🔹 II — Verdadeira
+
+    Cada prática dentro do modelo possui:
+
+    Níveis de maturidade (1 a 3)
+    Nível 0 = ausência (não maturidade)
+    Cada nível tem:
+    Objetivos específicos
+    Atividades necessárias para alcançar aquele nível
+
+    👉 Isso define o grau de evolução da segurança na empresa.
+
+    As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leia o texto a seguir:
+
+“O desenvolvimento seguro de software é um processo que padroniza as práticas recomendadas de segurança em produtos e aplicações. Um ciclo de desenvolvimento seguro de software visa diminuir ou evitar que vulnerabilidades sejam inseridas durante a construção do sistema ao adicionar atividades relacionadas à segurança da informação a cada fase de um ciclo de desenvolvimento de software” (MALACARNE e CAMARGO, 2021, p. 3).
+
+A partir desse contexto, é correto afirmar que o conceito de modelos de maturidade é cada vez mais aplicado no campo dos Sistemas de Informação como uma abordagem para o:
+
+    desenvolvimento organizacional.
+
+
 ////////////////////////// 
 Estudos orientados 2:
 

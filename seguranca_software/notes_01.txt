@@ -45,6 +45,8 @@ Os testes de segurança devem abranger duas estratégias:
 
 
 Exercícios ->
+
+
 Leia o trecho a seguir:
 
 “Na apresentação das boas práticas de programação, pode-se constatar que a implementação de código recomendada difere significativamente de uma implementação de código despreocupada com as questões de segurança, por isso, a melhor estratégia para tratar as vulnerabilidades de segurança é incorporar um conjunto de boas práticas durante o processo de desenvolvimento da aplicação, com o intuito de mitigar o maior número de vulnerabilidades possível. Dessa forma, os impactos da exploração de alguma vulnerabilidade remanescente e o esforço para adequar o código serão significativamente reduzidos”. (SILVA, 2011, p. 86). SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
@@ -111,4 +113,69 @@ Está correto o que se afirma em:
 
 
 
+“Na medida em que a sociedade migra suas inúmeras atividades e serviços para o ambiente Web, uma quantidade cada vez maior de dados e informações de diversos níveis de valor e privacidade são disponibilizados pela Web. Deste modo, a preocupação com requisitos de segurança deve ter atenção especial no processo de desenvolvimento dos sistemas ou, consequentemente, pessoas, empresas e governos podem ter prejuízos morais e financeiros, caso suas falhas sejam exploradas para fins indevidos.” (SILVA, 2011, p. 10).
 
+A partir desse contexto, podemos afirmar que:
+
+I - Deve-se tomar cuidado para evitar o possível vazamento de dados durante a transmissão de dados de uma fonte para outra, implementando canais seguros (HTTPS) para transmissão de dados e criptografia de dados durante a transmissão.
+
+II - A proteção de aplicativos acessíveis pela Web requer um profissional de segurança bem-preparado e atualizado com os métodos e tendências de ataque atuais.
+
+III - É aconselhável que o profissional adquira uma visão geral das soluções de segurança aplicáveis em projetos com foco na compreensão das principais soluções criptográficas a serem aplicadas.
+
+IV - A equipe de desenvolvimento, deve visualizar apenas os problemas de segurança relevantes para as plataformas que estão sendo utilizadas.
+
+Está correto o que se afirma em:
+
+    I, II e III, apenas.
+
+
+
+Leia o trecho a seguir: “Na validação da entrada, considere todas as propriedades potencialmente relevantes, incluindo o comprimento, tipo de entrada, toda a gama de valores aceitáveis, entradas extras ou em falta, sintaxe, consistência em áreas afins, e conformidade com regras de negócio. Como exemplo da lógica das regras de negócio, ‘barco’ pode ser sintaticamente válido porque contém apenas caracteres alfanuméricos, mas não é válida se você está esperando cores, tais como "vermelho" ou "azul”. (SILVA, 2011, p. 24).
+
+A partir desse contexto, no que diz respeito à segurança do software, é correto afirmar que:
+
+    A segurança deve ser explicitamente trabalhada no nível de requisitos.
+
+
+
+Leia o trecho a seguir:
+
+“As práticas de segurança no desenvolvimento de sistemas web, apesar da criticidade, têm sido ignoradas. Estudos de diversas entidades apontam as aplicações web como as mais vulneráveis e as que mais sofrem ataques maliciosos. As consequências de um ataque podem variar desde a visualização de dados não autorizados, roubo de informações sigilosas, controle da aplicação e até mesmo o controle do ambiente em que a aplicação é executada, dependendo do nível de vulnerabilidade da aplicação que sofre o ataque.” (Silva, 2011, p. 7).
+
+Silva, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir desse contexto, podemos afirmar que:
+
+I - O tema segurança da informação tem se tornado cada vez mais conhecido, na medida em que as organizações possuem suas informações processadas e armazenadas no ambiente computacional.
+
+II - A informação deve ser cuidada por meio de políticas e regras, da mesma maneira que os recursos financeiro e material são tratados dentro da empresa.
+
+III - O conhecimento é uma lista de coisas que sabemos ou uma coleção de fatos.
+
+IV - A codificação segura é o desenvolvimento de um projeto de software que busca evitar e minimizar as fraquezas que resultam em vulnerabilidades de segurança.
+
+Está correto o que se afirma em:
+
+
+    I, II e IV, apenas.
+
+
+
+“Geralmente é mais barato construir software seguro, do que corrigir problemas de segurança após a entrega do software, como um produto final ou pacote completo de software, sem falar nos custos que podem estar associados a uma falha de segurança.
+
+Proteger os recursos críticos de aplicações tem se tornado cada vez mais importante, pois o foco dos atacantes concentra-se na camada de aplicação, conforme demonstrado nos capítulos anteriores. Por isso, a melhor estratégia para tratar as questões de segurança é incorporar um conjunto de boas práticas durante o processo de desenvolvimento da aplicação, com o intuito de mitigar o maior número de vulnerabilidades possível”. (SILVA, 2011, p. 61).
+
+SILVA, J. J. Segurança em aplicações web: principais vulnerabilidades e estratégias de prevenção. 2011. 94 f. Monografia (Especialização em Informática) – Universidade Federal do Paraná, Curitiba, 2011. Disponível em: https://acervodigital.ufpr.br/handle/1884/39089. Acesso em: 28 jul. 2022.
+
+A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas.
+
+I. A segurança do software pode se beneficiar muito da segurança da rede.
+
+POIS:
+
+II. A segurança bem integrada permite e incentiva que os profissionais de segurança de rede se envolvam aplicando os pontos de contato, fornecendo experiência e sabedoria de segurança que possam estar faltando na equipe de desenvolvimento.
+
+A SEGUIR, ASSINALE A ALTERNATIVA CORRETA:
+
+    As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.

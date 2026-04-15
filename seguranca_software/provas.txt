@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+______________________________________________________________
+
+AV2
+
+Um desenvolvedor está analisando a superfície de ataque de uma aplicação web e percebe que o sistema aceita diversos tipos de entradas do usuário sem a devida sanitização. Ele decide implementar o uso de expressões regulares para validar os dados antes do processamento.
+
+Sobre a validação de entradas de dados e superfície de ataque, assinale a opção correta:
+
+    A superfície de ataque refere-se aos pontos onde um invasor pode tentar inserir ou extrair dados, sendo a validação de entradas uma defesa proativa crítica.
+
+
+
+Qual das seguintes etapas da metodologia de avaliação de risco é a primeira a ser realizada?
+
+    Identificação de ativos.
+
+
+É sabido que por meio do SDLC (Ciclo de Vida de Desenvolvimento de Software) é possível produzir um software de alta qualidade sem que isso implique mais custo ou tempo de produção. Assinale a alternativa que apresenta corretamente os objetivos da fase de Planejamento do SDLC.
+
+    Definir os requisitos do software, o cronograma do projeto e o orçamento.
+
+
+Sobre o ciclo de desenvolvimento de software em específico a fase de análise de requisitos, quais as principais categorias de requisitos de segurança?
+
+    Requisitos de segurança funcional; Requisitos de segurança não funcional; Requisitos de Segurança derivada.
+
+
+

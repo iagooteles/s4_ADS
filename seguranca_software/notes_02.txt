@@ -76,3 +76,59 @@ A partir desse contexto, selecione a alternativa que contém uma prática recome
     Evitar o uso de variáveis globais.
 
 
+“Apesar de ser um tópico bastante antigo, variáveis de ambiente ainda parecem coisa de outro mundo para alguns desenvolvedores, simplesmente pelo fato de que elas sempre são abordadas em relação a alguma infraestrutura, então, enquanto iniciantes e intermediários, ficamos com dúvidas sobre este tópico ter relação direta com nosso desenvolvimento, e podemos afirmar com clareza: tem, sim. Variáveis de ambiente são variáveis como aquelas que criamos em nossas aplicações. Porém, ao invés de existirem dentro do sistema que estamos construindo, elas moram diretamente dentro do sistema operacional da máquina que está executando nossa aplicação.” (SANTOS, 2019, s. p.).
+
+A partir desse contexto, no que diz respeito à utilização de uma variável de ambiente, é correto afirmar que:
+
+    Direciona quanto ao armazenamento de arquivos temporários.
+
+
+
+“A falta de uma comunicação eficiente entre múltiplos stakeholders é o principal motivo para ocorrência de falhas de projetos por causar inconsistências em objetivos e requisitos [...]. A aquisição, especificação e evolução de metas e requisitos de diferentes partes interessadas ou fontes, muitas vezes, levam a requisitos incompletos, ambíguos e com falhas.” (REZENDE, 2020, p. 25).
+
+
+A partir desse contexto, podemos afirmar que:
+
+I - Um aspecto central e crítico do problema de segurança do computador é um problema de software.
+
+II - Defeitos de software com ramificações de segurança, incluindo bugs de implementação, como estouros de buffer e falhas de design, como tratamento de erros inconsistente, são muito frequentes em diversas empresas.
+
+III – Obrigatoriamente, no desenvolvimento de software, para garantir a segurança e integridade dos dados, não devemos utilizar blocos de códigos de outros projetos.
+
+IV – Métodos e ferramentas modernas para o desenvolvimento de software reduzem as possíveis fontes de erro.
+
+Está correto o que se afirma em:
+
+    I, II e VI, apenas.
+
+
+Leia o texto a seguir: “Os aplicativos não devem manipular diretamente o conteúdo de um descritor de segurança. A API Windows fornece funções para definir e recuperar as informações de segurança no descritor de segurança de um objeto. Além disso, há funções para criar e inicializar um descritor de segurança para um novo objeto. Aplicativos que trabalham com descritores de segurança em objetos do Active Directory podem usar as funções de segurança Windows ou as interfaces de segurança fornecidas pelo ADSI (Active Directory Service Interfaces)”. (ASHCRAFT et al., 2022, s. p.).
+
+A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas.
+
+I. Os descritores de segurança fornecem principalmente informações de segurança sobre objetos.
+
+II. O descritor de segurança limita ou concede acesso ao pessoal ou grupo em questão, dependendo de sua autorização para visualizar ou editar esse objeto.
+
+A seguir, assinale a alternativa correta:
+
+    As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
+
+
+
+“[...] por consequência, um sistema é definido como crítico em segurança (safety) se uma falha puder causar dano imediato e direto (físico e material). Por outro lado, um sistema é crítico em segurança (security) se uma falha na proteção puder habilitar ou aumentar a capacidade de terceiros de gerar prejuízos. Embora a segurança se concentre em diferentes problemas, causas e consequências, não é mais possível ser verdadeiramente seguro (safety) sem também ser protegido (security).” (REZENDE, 2020, p. 25).
+
+A partir desse contexto, podemos afirmar que:
+
+I - A Segurança de software está relacionada com a compreensão dos riscos de segurança induzidos por software e como gerenciá-los.
+
+II - Boas práticas de segurança de software aproveitam a boa engenharia de software e envolvem a reflexão sobre segurança no início do ciclo de vida do software.
+
+III - A atualização dos componentes individuais não é um processo único, mas um processo contínuo.
+
+IV - Um pré-requisito elementar para o uso seguro é que a tecnologia não deve corresponder ao estado atual de desenvolvimento.
+
+Está correto o que se afirma em:
+
+    I, II e III, apenas.
+
