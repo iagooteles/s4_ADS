@@ -14,9 +14,90 @@ Objetivos:
 /////////// 3. Estrutura analítica de projetos (EAP) /////////////////////////
 
 
-CONTINUAR DAQUI
 
 /////////// 4. Ciclo de vida de um projeto e a tríplice restrição /////////////////////////
 
 
+tríplice restrição -> Prazo, custo e escopo;
 
+
+exercícios -> 
+
+
+O Programa ou Programação do projeto visa a alocação das atividades do projeto em um determinado período de tempo, com a consideração da característica temporária dos projetos.
+
+Sobre as etapas da programação de projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. São etapas da programação de projetos: rede de atividades, cálculo das datas do projeto, identificação das atividades e do caminho crítico, cronograma, histograma, nivelamento de recursos e cronograma final.
+
+II. As etapas da programação de projetos consistem na rede de atividades e cronograma, representadas através do Gráfico de Gantt.
+
+III. As etapas da programação de projetos são o cronograma, histograma e nivelamento de recursos.
+
+IV. As etapas da programação de projetos se referem à identificação das atividades e do caminho crítico.
+
+V. A programação de projetos é igual ao cronograma de projetos.
+
+
+    Somente a I está correta.
+
+
+
+
+Os projetos se caracterizam por terem início e fim de suas atividades em um determinado período de tempo, o chamado Caráter Temporário dos projetos. O caráter temporário do projeto é caracterizado no ciclo de vida de um projeto.
+
+Sobre o ciclo de vida do projeto, após a análise das proposições a seguir, podemos afirmar que:
+
+I. A visão genérica do ciclo de vida do projeto é composta por quatro fases: iniciação, planejamento, realização e encerramento.
+
+II. Os projetos definidos e selecionados são autorizados no termo de abertura na fase da iniciação do projeto.
+
+III. A fase 2 do ciclo de vida do projeto se refere ao planejamento, que engloba o plano base do projeto.
+
+IV. O encerramento do projeto é a fase mais rápida e a que demanda menos recursos para a execução.
+
+V. A fase 3 do projeto se refere ao planejamento e abrange o monitoramento e controle da programação e do orçamento.
+
+    a. I, II e III estão corretas.
+
+    Ciclo de vida do projeto -> Iniciação ; planejamento; execução / realização ; encerramento;
+
+
+
+
+A execução de um projeto com eficiência, adequada alocação dos recursos e eficácia, alcance de resultados e entregas previstas com qualidade demanda o cumprimento de alguns princípios básicos conhecidos como Restrição Tripla ou Tríplice Restrição. Sobre a restrição tripla, após a análise das proposições a seguir, podemos afirmar que:
+
+I. A restrição tripla em projetos se refere aos custos, prazo e escopo do projeto.
+
+II. Na restrição tripla, o escopo visa atender às necessidades expressas e implícitas do cliente.
+
+III. Na restrição tripla, o prazo se refere à necessidade do projeto ser disponibilizado no tempo previsto.
+
+IV. Na restrição tripla, os custos visam a análise da compatibilidade dos preços e custos.
+
+V. O peso de cada um dos componentes da restrição tripla para a tomada de decisões em projetos variará de acordo com as prioridades, com os objetivos da organização e do projeto.
+
+    Todas estão corretas.
+
+
+
+
+
+O Escritório de Projetos é também conhecido como PMO - Project Management Office, e se caracteriza como uma das formas organizadas na estrutura organizacional, que pode fornecer apoio permanente para a gestão de projetos em uma organização.
+
+Sobre o Escritório de Projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. Quanto mais a gestão de uma organização é direcionada para projetos, maior é a necessidade da estruturação de um escritório de projetos.
+
+II. Escritório de projetos tem caráter temporário em uma organização, assim como os projetos.
+
+III. Um dos tipos de escritório de projetos visa a construção de centro de excelência para a interação entre o ambiente organizacional e o mercado.
+
+IV. O Escritório
+
+V. O Escritório de Projetos pode estar presente somente em organizações públicas e da sociedade civil.
+
+    
+    I e III estão corretas.
+
+    ESTUDAR SOBRE PMO

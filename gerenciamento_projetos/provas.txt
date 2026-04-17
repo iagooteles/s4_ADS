@@ -1,0 +1,98 @@
+A formalização do gerenciamento de projetos começou a ganhar força ao longo do século XX, com a criação de metodologias e práticas que buscavam organizar de forma mais eficiente os projetos em diversas indústrias. Um dos grandes avanços no campo do gerenciamento de projetos foi o desenvolvimento de técnicas que permitiam calcular e gerenciar o tempo de conclusão de atividades críticas dentro de projetos complexos.
+
+Entre as opções abaixo apresentadas, qual foi uma das metodologias desenvolvidas para identificar o caminho mais longo de atividades e assim determinar a duração mínima do projeto?
+
+    e. Método do Caminho Crítico (CPM). 
+        é uma técnica de gestão para identificar a sequência mais longa de tarefas dependentes e calcular o tempo mínimo de conclusão de um projeto.
+
+
+É essencial que as empresas administrem o conjunto de projetos de produtos a serem desenvolvidos, identificando, selecionando e priorizando os projetos de novos produtos ou mesmo novos programas. Essa atividade na gestão de projetos de produtos é conhecida como:
+
+    Gestão de portfólio.
+    Gestão de portfólio contempla programas, projetos e tarefas.
+
+
+    Projeto é um empreendimento planejado, orientado a resultados, por meio do qual recursos humanos, materiais e financeiros são organizados para o alcance de um objetivo claro e definido.
+
+
+    Caminho crítico -> O Método do Caminho Crítico (CPM) foi desenvolvido nos anos 1950 para identificar a sequência de atividades que determinam a duração mínima de um projeto. Ele é amplamente utilizado em projetos de grande porte para otimizar o tempo de execução e garantir que prazos sejam cumpridos.
+
+
+    O modelo multidimensional proposto por Rezende et al. (2021), para a avaliação do sucesso em projetos, abrange cinco dimensões: Eficiência do projeto, Impacto no cliente, Impacto na equipe, Resultados comerciais e Preparação para o futuro. Essas dimensões permitem uma análise mais abrangente do desempenho de um projeto, levando em consideração tanto os resultados de curto prazo quanto os impactos a longo prazo.
+
+
+    📌 📊 As 10 áreas de conhecimento do PMBOK
+
+Vou te explicar cada uma de forma simples 👇
+
+1. 📦 Integração
+
+👉 Coordena todas as partes do projeto
+
+garante que tudo funcione junto
+inclui controle de mudanças
+2. 📋 Escopo
+
+👉 Define o que será feito
+
+requisitos
+entregas
+limites do projeto
+3. ⏱️ Cronograma (Tempo)
+
+👉 Define quando será feito
+
+atividades
+sequenciamento
+prazos
+4. 💰 Custos
+
+👉 Define quanto vai custar
+
+orçamento
+controle financeiro
+5. ⭐ Qualidade
+
+👉 Garante que o projeto atenda aos padrões
+
+controle de qualidade
+melhoria contínua
+6. 👥 Recursos
+
+👉 Gerencia pessoas e recursos físicos
+
+equipe
+materiais
+alocação
+7. 📢 Comunicações
+
+👉 Gerencia informações do projeto
+
+quem recebe o quê
+como e quando comunicar
+8. ⚠️ Riscos
+
+👉 Lida com incertezas
+
+identificar riscos
+analisar
+responder
+9. 🛒 Aquisições
+
+👉 Trata de compras e contratos
+
+fornecedores
+serviços externos
+10. 🤝 Stakeholders
+
+👉 Gerencia partes interessadas
+
+clientes
+equipe
+patrocinadores
+
+
+
+
+
+1 4 5

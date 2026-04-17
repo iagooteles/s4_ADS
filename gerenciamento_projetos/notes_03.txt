@@ -140,6 +140,76 @@ V. O GERENCIAMENTO DOS RECURSOS HUMANOS DO PROJETO se preocupa em como proporcio
     I, II, III e V estão corretas.
 
 
+
+
+O gerenciamento de projetos é realizado mediante a aplicação e integração de processos agrupados de forma lógica. O Guia PMBOK descreve os processos de gerenciamento de projetos em termos da integração entre os processos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. Grupo de processos de iniciação são os processos executados para definir um novo plano de gerenciamento do projeto, executando de forma fiel ao projeto.
+
+II. Grupo de processos de planejamento são os processos necessários para definir o escopo do projeto, seus objetivos e definir a linha de ação para alcançar os objetivos do projeto.
+
+III. Grupo de processos de execução são os processos realizados para executar o trabalho definido no plano de gerenciamento do projeto e para satisfazer as especificações do projeto.
+
+IV. Grupo de processos de monitoramento e controle são os processos exigidos para acompanhar, analisar e controlar o progresso e desempenho do projeto, identificar quaisquer áreas nas quais serão necessárias mudanças no plano, e iniciar as mudanças correspondentes.
+
+V. Grupo de processos de encerramento são os processos executados para finalizar todas as atividades de todos os grupos de processos, com o objetivo de encerrar formalmente o projeto ou fase.
+
+
+    II, III, IV, V
+
+
+
+
+O objetivo da integração no gerenciamento de projetos é integrar e consolidar as atividades e processos feito através do processo de desenvolvimento do plano de gerenciamento de projetos, consolidando os processos de planejar todas as etapas, incluindo escopo, cronograma, custos, qualidade, recursos, comunicação, riscos, aquisições, e o engajamento da equipe e das demais partes envolvidas.
+
+Sobre o conceito Gerenciamento, após a análise das proposições a seguir, podemos afirmar que:
+
+I. O GERENCIAMENTO DO ESCOPO DO PROJETO descreve os processos necessários para assegurar que o projeto contemple os requisitos acordados, e nada mais que os requisitos acordados, o que garantirá o sucesso do projeto.
+
+II. O GERENCIAMENTO DO TEMPO DO PROJETO apresenta os processos necessários para assegurar que o projeto termine dentro do prazo previsto.
+
+III. O GERENCIAMENTO DO CUSTO DO PROJETO contempla os processos necessários para assegurar que o projeto termine dentro do orçamento aprovado.
+
+IV. O GERENCIAMENTO DA QUALIDADE DO PROJETO assegura que as necessidades que originaram o seu desenvolvimento serão satisfeitas. Um projeto tem qualidade quando é concluído sem parâmetros de conformidade aos requisitos e adequação ao uso.
+
+V. O GERENCIAMENTO DOS RECURSOS HUMANOS DO PROJETO se preocupa em como proporcionar a melhor utilização das funções das pessoas envolvidas no projeto. Embora seja uma área complexa e muitas vezes subjetiva, exige comportamentos específicos para lidar com as pessoas.
+
+
+    I, II, III, V
+
+
+Dentre os conceitos dos termos estudados na área de projetos, leia as proposições a seguir e analise quais definições estão corretas:
+
+I. ESCOPO DO PROJETO como sendo as necessidades das partes interessadas que devem ser atendidas ao final do projeto.
+
+II. O CRONOGRAMA DE PROJETO é definido como um documento que descreve todas as tarefas a serem cumpridas dentro de um determinado planejamento do projeto.
+
+III. CUSTOS DE UM PROJETO é a somatória de todos os recursos monetários doados pelos contribuintes do projeto de modo que possam ser calculados de acordo com o Produto Interno Bruto.
+
+IV. A COMUNICAÇÃO inclui os processos necessários para assegurar que as informações do projeto sejam geradas, coletadas, distribuídas, armazenadas, recuperadas e organizadas de maneira oportuna e apropriada.
+
+V. RECURSOS HUMANOS envolve a tomada de decisões sobre os recursos decisivos, muito importantes no contexto do sucesso ou insucesso da gestão de projetos.
+
+    I, II, IV e V estão corretas.
+
+
+
+No escopo da gestão dos recursos humanos do projeto também deve ser considerada a gestão das chamadas partes interessadas ou stakeholders, que se referem a todas as pessoas ou organizações que influenciam o projeto, além da equipe direta. Sobre isso, após a análise das proposições a seguir, podemos afirmar que:
+
+I. Cada processo pode envolver o esforço de um grupo ou de uma pessoa.
+
+II. Cada processo ocorre pelo menos uma vez em todos os projetos e em uma ou mais fases do projeto, caso o projeto seja dividido em fases.
+
+III. A equipe do projeto tem como objetivo melhorar as competências e interação dos membros da equipe para aprimorar o desempenho do projeto.
+
+IV. É responsabilidade da equipe de gerenciamento do projeto assegurar que todas as aquisições atendam às necessidades específicas do projeto e, ao mesmo tempo, cumpram as políticas de aquisição da organização.
+
+V. A equipe de gerenciamento do projeto pode buscar desde o início o apoio de especialistas em contratos, compras, aspectos jurídicos e disciplinas técnicas.
+
+    Todas estão corretas.
+ 
+
+
 //////////////////////////////////////////////////////////////////////////
 
 Encontro virtual -> 
@@ -160,4 +230,6 @@ Gestão de custos -
 
 
 Definição clara do escopo em um projeto -> 
+
+
 

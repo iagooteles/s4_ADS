@@ -24,8 +24,6 @@ Exercícios ->
 
 “[...] risco é definido como a combinação da probabilidade de um evento (ou perigo ou fonte de risco) e sua consequência. De acordo com esta norma, dois parâmetros importantes são considerados na definição de risco: a fonte de risco e sua consequência. A fonte do risco pode ser acidental ou deliberada, e as consequências podem ser de diferentes tipos: financeiro, ambiental, humano, reputação, privacidade, operacional ou em safety.” (REZENDE, 2020, p. 25).
 
-REZENDE, M. V. Avaliação de segurança cibernética no desenvolvimento de software embarcado automotivo: uma abordagem ontológica. 2020. Tese (Doutorado em Sistemas de Informação e Gestão do Conhecimento) – Faculdade de Ciências Empresariais, FUMEC, Belo Horizonte, 2020. Disponível em: https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=9808922. Acesso em: 5 ago. 2022.
-
 A partir desse contexto, sobre os aspectos da segurança que estão atrelados ao processo de desenvolvimento do software, podemos afirmar que:
 
 I - As vulnerabilidades de implementação e de design são defeitos. Um defeito é um problema que pode ficar adormecido no software por anos e aparecer apenas em um campo de sistema com grandes consequências.
@@ -44,8 +42,6 @@ Está correto o que se afirma em:
 
 “A crescente necessidade de produtos de software que suportam processos de negócios têm motivado consideravelmente pesquisadores no melhoramento de processos de desenvolvimento de software. Da mesma maneira que cada projeto de sistema possui diferentes requisitos de software, também possuirá diferentes requisitos de segurança. Requisitos de segurança da informação são identificados por meio de uma avaliação sistemática dos riscos de segurança da informação. Gastos com os controles de segurança precisam ser balanceados de acordo com os danos causados aos negócios gerados pelas falhas potenciais na segurança da informação.” (WAGNER et al., 2011, p. 1).
 
-WAGNER, R.; BRANDOLT, J. F. A.; ROSSI, F. D. Processo de desenvolvimento de software seguro através da identificação de níveis de segurança. In: SIMPÓSIO DE TECNOLOGIA DA INFORMAÇÃO DA REGIÃO NOROESTE DO RIO GRANDE DO SUL, 2., 2011, Alegrete. Anais [...]. Alegrete: Instituto Federal Farroupilha, 2011. Disponível em: https://san.uri.br/sites/anais/Stin/trabalhos/03.pdf. Acesso em: 5 ago. 2022.
-
 A partir do apresentado, analise as asserções a seguir e a relação proposta entre elas:
 
 I. Embora as violações de segurança sejam uma prioridade para muitas organizações, os bugs de software devem ser uma preocupação maior.
@@ -57,23 +53,20 @@ A seguir, assinale a alternativa correta:
     As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.
 
 
-“As ameaças podem ser de tipos diferentes assim como perseguir objetivos diferentes. Dependendo do ambiente em que um sistema de informação ou uma rede esteja localizada e o tipo de informação para a qual foi projetada, diferentes classes de ameaças terão interesse em tentar obter diferentes tipos de informações ou acesso, com base em suas capacidades particulares. As ameaças são geralmente muito mais fáceis de listar do que de descrever e muito mais fáceis de descrever do que de medir.” (REZENDE, 2020, p. 32). REZENDE, M. V. Avaliação de segurança cibernética no desenvolvimento de software embarcado automotivo: uma abordagem ontológica. 2020. Tese (Doutorado em Sistemas de Informação e Gestão do Conhecimento) – Faculdade de Ciências Empresariais, FUMEC, Belo Horizonte, 2020. Disponível em: https://repositorio.fumec.br/xmlui/bitstream/handle/123456789/835/mauricio_vianna_dout_sigc_2020.pdf?sequence=1. Acesso em: 5 ago. 2022.
+“As ameaças podem ser de tipos diferentes assim como perseguir objetivos diferentes. Dependendo do ambiente em que um sistema de informação ou uma rede esteja localizada e o tipo de informação para a qual foi projetada, diferentes classes de ameaças terão interesse em tentar obter diferentes tipos de informações ou acesso, com base em suas capacidades particulares. As ameaças são geralmente muito mais fáceis de listar do que de descrever e muito mais fáceis de descrever do que de medir.” (REZENDE, 2020, p. 32). REZENDE, M. V. Avaliação de segurança cibernética no desenvolvimento de software embarcado automotivo: uma abordagem ontológica. 
 
 A partir desse contexto, no que diz respeito ao uso de bibliotecas de software por vários fornecedores de hardware, é correto afirmar que:
-
 
     Estão se tornando uma preocupação crescente para profissionais de segurança corporativa.
 
 
 
-Leia o texto a seguir: “Por mais que variáveis de ambiente possuam problemas, assim como todas as tecnologias, variáveis de ambiente (ou envs, como são normalmente chamadas) provém um equilíbrio entre o que é bom, mas muito complicado e o que não é tão bom, mas é mais simples, tendo muitas das vantagens de segurança com poucas desvantagens. Por este motivo elas foram muito aceitas na comunidade de desenvolvimento como um todo. A aceitação desse tipo de armazenamento é muito importante também, porque temos envs em todos os lugares, desde máquinas físicas e cloud, como o EC2 até clusters de contêineres como o Kubernetes. Então é muito fácil encontrar o suporte necessário para poder salvar suas informações.” (SANTOS, 2019, s. p.).
-
-SANTOS, L. Protegendo seus dados: utilizando variáveis de ambiente. iMasters, [online], 11 jan. 2019. Disponível em: https://imasters.com.br/desenvolvimento/protegendo-seus-dados-utilizando-variaveis-de-ambiente. Acesso em: 5 ago. 2022.
+“Por mais que variáveis de ambiente possuam problemas, assim como todas as tecnologias, variáveis de ambiente (ou envs, como são normalmente chamadas) provém um equilíbrio entre o que é bom, mas muito complicado e o que não é tão bom, mas é mais simples, tendo muitas das vantagens de segurança com poucas desvantagens. Por este motivo elas foram muito aceitas na comunidade de desenvolvimento como um todo. A aceitação desse tipo de armazenamento é muito importante também, porque temos envs em todos os lugares, desde máquinas físicas e cloud, como o EC2 até clusters de contêineres como o Kubernetes. Então é muito fácil encontrar o suporte necessário para poder salvar suas informações.” (SANTOS, 2019, s. p.).
 
 A partir desse contexto, selecione a alternativa que contém uma prática recomendada para a maioria das linguagens de programação e paradigmas de design:
 
-
     Evitar o uso de variáveis globais.
+
 
 
 “Apesar de ser um tópico bastante antigo, variáveis de ambiente ainda parecem coisa de outro mundo para alguns desenvolvedores, simplesmente pelo fato de que elas sempre são abordadas em relação a alguma infraestrutura, então, enquanto iniciantes e intermediários, ficamos com dúvidas sobre este tópico ter relação direta com nosso desenvolvimento, e podemos afirmar com clareza: tem, sim. Variáveis de ambiente são variáveis como aquelas que criamos em nossas aplicações. Porém, ao invés de existirem dentro do sistema que estamos construindo, elas moram diretamente dentro do sistema operacional da máquina que está executando nossa aplicação.” (SANTOS, 2019, s. p.).

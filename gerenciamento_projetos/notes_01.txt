@@ -128,3 +128,109 @@ V. O fato do projeto ser temporário significa que os projetos devem ter um iní
 
 
 
+Os projetos têm relevância para a implementação e o sucesso das estratégias organizacionais, para a geração de valor nos negócios. Os projetos abrangem a execução de atividades e processos no seu escopo, mas se diferenciam das atividades rotineiras
+
+das organizações. Sobre os projetos e as atividades rotineiras, após a análise das proposições a seguir, podemos afirmar que:
+
+I. As atividades rotineiras possuem ciclos curtos de duração, são desenvolvidas por apenas um indivíduo, são bem conhecidas e não têm uma cronologia muito definida.
+
+II. Os projetos possuem ciclos curtos de duração, são desenvolvidos por apenas um indivíduo, são bem conhecidos e não têm uma cronologia muito definida.
+
+III. As empresas cuja concentração das atividades rotineiras é elevada são conhecidas como Dirigidas por Processos.
+
+IV. As empresas cujas suas tarefas são pouco ou quase nada rotineiras, onde as pessoas e os sistemas são adaptáveis a essa realidade podem ser reconhecidas pelo termo Dirigidas por Projetos.
+
+V. As empresas cuja concentração dos projetos é elevada são conhecidas como Dirigidas por Processos.
+
+    I, III e IV estão corretas.
+
+
+
+
+Definir o conceito de sucesso em projetos não é uma tarefa simples que possa ser realizada sem considerar variáveis diversas que podem influenciar e impactar os resultados dos projetos. Sobre o conceito de sucesso em projetos e em gerenciamento de projetos, após a análise das afirmativas a seguir, podemos afirmar que:
+
+I. Uma das definições de sucesso em gerenciamento de projetos é entregar os resultados do projeto dentro do tempo, dentro do orçamento e com as características e funcionalidades requeridas.
+
+II. O sucesso em projetos se refere à entrega dos benefícios do projeto em relação aos critérios financeiros de qualidade, flexibilidade e a inovação esperada pelos stakeholders.
+
+III. Os interesses das partes interessadas que se relacionam com um projeto, os stakeholders, sempre estão alinhados com os objetivos e metas do projeto, com ausência de conflitos.
+
+IV. Tanto a visão do sucesso do gerenciamento do projeto quanto o sucesso do projeto são essenciais para o desempenho do produto, da organização e para o alcance dos benefícios organizacionais.
+
+V. O estabelecimento de indicadores de desempenho para monitoramento, avaliação e controle é ação essencial para o caminho do sucesso em projetos e em gerenciamento de projetos.
+
+
+    I, II, IV e V estão corretas.
+
+
+
+No contexto da evolução recente do gerenciamento de projetos, entre as décadas de 1980, 1990 e ao século XXI, é possível identificar duas ondas dos projetos. Sobre as fases identificadas como Primeira e Segunda Onda dos Projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. A primeira onda de projetos se caracterizou pelo foco na eficiência, no atendimento dos resultados de projetos quanto ao escopo, prazos, custos e qualidade.
+
+II. Como resultados da segunda onda da evolução de projetos aponta-se a utilização de técnicas e ferramentas para a estruturação de projetos e equipes, o que impactou a melhoria na alocação mais assertiva dos recursos.
+
+III. Na primeira onda, o foco na eficácia teve como objetivo aprimorar algumas áreas de conhecimento, como é o caso do gerenciamento de riscos em projetos.
+
+IV. Na segunda onda, o foco na eficácia teve como objetivo aprimorar algumas áreas de conhecimento, como é o caso do gerenciamento de riscos em projetos.
+
+V. Como resultados da primeira onda da evolução de projetos aponta-se a utilização de técnicas e ferramentas para a estruturação de projetos e equipes, o que impactou a melhoria na alocação mais assertiva dos recursos.
+
+    I, IV e V estão corretas.
+
+
+    🟦 Primeira Onda (anos 1980–1990)
+
+    👉 Foco: EFICIÊNCIA
+
+    Ou seja:
+
+    Fazer o projeto “do jeito certo”
+    Entregar:
+    no prazo
+    no custo
+    no escopo
+    com qualidade
+
+    💡 Aqui nasce a famosa tripla restrição
+
+    Também é nessa fase que surgem:
+
+    Métodos
+    Ferramentas
+    Estruturação de projetos
+    Planejamento mais formal
+
+    🟩 Segunda Onda (anos 2000+)
+
+    👉 Foco: EFICÁCIA
+
+    Ou seja:
+
+    Fazer o projeto “certo”
+    Gerar valor para o negócio
+
+    Inclui:
+
+    Estratégia
+    Benefícios
+    Inovação
+    Stakeholders
+    Gestão de riscos mais madura
+
+
+    
+
+A etapa do planejamento de projetos é identificada como fundamental e crucial para que um projeto alcance resultados positivos para os stakeholders, o chamado Sucesso em Projetos. Sobre o planejamento em projetos e a importância no gerenciamento e resultados dos projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. O planejamento estratégico de projetos é uma das ações presentes nos projetos de excelência em empresas globais.
+
+II. Estudos sobre empresas globais e a atuação na etapa de planejamento de projetos sinalizam que em países como Alemanha, Japão e Estados Unidos, o índice de sucesso quanto à conclusão dentro do prazo, do orçamento e obtenção dos resultados desejados pela organização giram em torno de 80%.
+
+III. Estudos sobre empresas globais e a atuação na etapa de planejamento de projetos sinalizam que é uma ação considerada como ponto forte das empresas brasileiras.
+
+IV. Não é possível correlacionar o impacto do planejamento de projetos com o sucesso em projetos e a ocorrência das práticas em maior frequência em países altamente competitivos na economia global.
+
+V. É possível correlacionar o impacto do planejamento de projetos com o sucesso em projetos e a ocorrência das práticas em maior frequência em países altamente competitivos na economia global.
+
+    I, II, III e V estão corretas.

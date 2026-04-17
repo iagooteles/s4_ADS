@@ -38,3 +38,39 @@ Sobre o ciclo de desenvolvimento de software em específico a fase de análise d
 
 
 
+Em um cenário de auditoria, descobriu-se que uma aplicação utiliza variáveis de ambiente para armazenar credenciais de banco de dados de forma insegura e não validava o nome de arquivos carregados pelos usuários, permitindo a leitura de arquivos sensíveis do sistema operacional.
+
+No que diz respeito ao tratamento de variáveis e arquivos, assinale a alternativa correta:
+
+    Variáveis de ambiente, descritores de arquivos e nomes de arquivos são fontes de entrada que devem ser validadas para prevenir ataques de manipulação de sistema.
+
+
+
+Qual dos itens abaixo são práticas da função de negócio de “Governança” do OpenSAMM?
+
+
+    Estratégia e Métricas; Conformidade política; Educação e orientação.
+
+
+
+Para criar um modelo de ataque é necessário considerar de forma explícita os ataques ou tipos de ataque conhecidos. Sabendo disso, assinale a alternativa que apresenta as ações realizadas durante o processo de criação de um modelo de ataque:
+
+
+    Identificar os riscos que podem afetar esses ativos.
+
+    Identificar os ativos que precisam ser protegidos.
+
+    Identificar as vulnerabilidades que podem ser exploradas para realizar um ataque.
+
+    Identificar as consequências de um ataque bem-sucedido.
+
+        Todas as opções anteriores.
+
+
+O ciclo de desenvolvimento de software seguro inclui diversas etapas, desde a concepção e design até a implementação e manutenção. Cada etapa deve incorporar práticas de segurança para minimizar a introdução de vulnerabilidades. Qual é a melhor prática durante a fase de design do ciclo de desenvolvimento de software para aumentar a segurança?
+
+    Realizar uma análise de ameaças para identificar e mitigar possíveis vulnerabilidades.
+
+
+
+
