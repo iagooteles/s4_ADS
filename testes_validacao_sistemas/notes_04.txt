@@ -105,4 +105,58 @@ Acunetix Vulnerability Scanner -
 ///////////////// 4. Ferramentas de teste: processos de verificação e validação de software; gestão de testes, defeitos, indicadores de qualidade /////////////////
 
 
-CONTINUAR DAQUI;
+Testlink -> 
+Azure Devops -> 
+HipTest ->
+Tarantula ->
+Kiwi TCMS ->
+Accela test ->
+Qase ->
+...
+
+Ferramentas para Gestão de defeitos ->
+Jira
+Mantis
+Bugzilla
+...
+
+
+/////////////////////////////////////////////
+
+Exercícios ->
+
+Para realizarmos a migração dos testes manuais para os automatizados devemos conhecer o processo genérico de uma solução de teste automatizada. Esse processo pode ter algumas especificidade quando falamos de diferentes organizações, no entanto, este deve ser obrigatoriamente bem constituído e coerente, com o objetivo de fornecer os resultados esperados com a meta de minimizar a energia gasta para executar testes caso fossem executados de forma manual. Sabendo disso, marque a alternativa que lista os passos para se criar uma solução de automação, em sua ordem de precedência:
+
+    Criação dos cenários de teste, análise do âmbito a automatizar, criação dos scripts automáticos, validação dos scripts, execução de scripts automáticos e manutenção do script de teste.
+
+
+
+Explicando mais claramente, o teste automatizado é o processo de execução de passos manuais de forma automática, a fim de disponibilizar mais cobertura sobre os cenários mapeados, melhorando o uso do tempo, a agilidade e a qualidade do produto final. Um processo de automação deverá necessariamente ser estruturado e coerente de forma a produzir os resultados desejáveis, visando reduzir o esforço de testes que se teria casos os mesmos testes tivessem de ser executados manualmente. Com isso, em relação aos critérios de automação, marque o que for verdadeiro:
+
+    São exemplos de critérios a frequência de uso, complexidade para automatizar, compatibilidade e suporte de ferramentas e maturidade do processo de teste.
+
+
+Alguns estudos se propõem a analisar o custo da automação, e algumas dessas pesquisas apontam como limitação da automação a transformação dos benefícios e custo em uma única unidade de comparação. Outras pesquisas sinalizam a dificuldade de analisar a viabilidade do uso da automação. Pontos como: ferramenta a ser utilizada, estabilidade do projeto e casos de uso adequados para a automação são questões a serem consideradas antes da automação. Existem algumas formas de realizar o estudo de viabilidade de forma a trazer números sobre os investimentos que são realizados. As duas formas mais conhecidas para analisar esses investimentos são:
+
+    CBA e o ROI.
+
+
+
+
+Utilizar ferramentas para a especificação e gestão de testes agrega muitos benefícios, como rapidez nos resultados, geração de logs de execuções, repetição exaustiva de testes, reprodução fiel dos testes e facilita o armazenamento e execução dos casos de teste. Com isso em mente, marque a alternativa que possui exemplos de ferramentas para gerenciamento de testes:
+
+
+    Testlin, AzureDevops, ALM.
+
+
+
+
+
+
+
+
+
+
+
+
+

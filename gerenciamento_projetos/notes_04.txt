@@ -25,4 +25,145 @@ Adaptação -
 
 /////////////////////////////////// 3. Escritório ágil e os modelos de maturidade em gerenciamento de projetos ///////////////////////////////////
 
-CONTINUAR DAQUI.....
+
+
+
+
+
+
+/////////////////////////////////// Gerenciamento ágil de projetos ///////////////////////////////////
+
+
+
+
+
+/////////////////////////////////// 2. O framework SCRUM e modelos híbridos de gestão ///////////////////////////////////
+
+
+Vantagens ao aderir o SCRUM:
+
+Maior visibilidade - 
+Maior motivação - 
+Alteração de prioridades - 
+Redução de defeitos (bugs) - 
+Abertura do escopo - 
+
+
+Pilares do scrum - 
+
+Transparência - 
+Inspeção - 
+Adaptação - 
+
+
+/////////////////////////////////// 3. Escritório ágil e os modelos de maturidade em gerenciamento de projetos ///////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////// 4. Tendências contemporâneas em gerenciamento de projetos ///////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+Exercícios ->
+
+
+O conceito principal de SCRUM é a ideia de uma metodologia de gerenciamento de projetos muito utilizada no gerenciamento de desenvolvimento de softwares, também havendo aplicações em projetos que possuem flexibilidade de sofrerem mudanças
+
+durante todo o seu ciclo de vida, seguindo a opinião do cliente e a exigência mínima de toda documentação burocrática. Sobre várias vantagens ao aderir a metodologia Scrum, após a análise das proposições a seguir, podemos afirmar que:
+
+I. É possível ter uma visão sistêmica de como o projeto prossegue e quais são os trabalhos futuros e problemas que poderão ser enfrentados pela equipe.
+
+II. Os integrantes e funcionários se sentem mais empenhados em cumprir o prazo estipulado de entrega dos acréscimos.
+
+III. O trabalho entregue tem poucas chances de apresentar erros e gerar retrabalho.
+
+IV. Na metodologia Scrum, a cada Sprint é feito um novo planejamento, possibilitando modificações de itens, correlacionando sua prioridade e a ordem de execução, não definidos ou fixados pelo cliente sem que seja prejudicado o alcance do objetivo do Sprint.
+
+V. Na metodologia Scrum, é permitido que o escopo, o trabalho realizado para atingir o objetivo final na fabricação de um produto ou prestação de serviços, seja aberto e possa ser alterado durante o desenvolvimento dos projetos.
+
+
+    Todas estão corretas.
+
+
+
+Existem vários métodos e ferramentas de gestão criados nas últimas décadas, mas corremos o risco de ir pelo caminho errado em nossos projetos caso não paremos para compreender o nível de complexidade do ambiente em que estamos inseridos e começarmos a inserir novas técnicas ágeis e facilitadoras para atuar no gerenciamento.
+
+Sobre os conceitos de algumas tendências atualizadas e o gerenciamento de projetos, após a análise das proposições a seguir, podemos afirmar que:
+
+I. No caso do framework Cynefin, as respostas e soluções para o domínio simples são geralmente complexas, e as restrições do ambiente não são evidentes.
+
+II. Partindo do princípio de ser uma metodologia ágil, a metodologia Scrum Agile propõe que um projeto seja dividido em diversos (pequenos) ciclos de atividades, aderindo a uma frequência de reunião para que a equipe possa alinhar o que vem fazendo e pensar formas de melhorar o processo com agilidade.
+
+III. O método Kanban define algumas práticas de gestão que, quando seguidas, aumentam a eficiência do fluxo de trabalho. Todas essas práticas giram em torno da clara visualização do fluxo e do trabalho sendo realizado.
+
+IV. Se tratando do SCRUM, é uma metodologia muito popular no mundo da tecnologia, sendo amplamente utilizada por times de futebol americano.
+
+V. O método Kanban define algumas práticas de gestão que, quando seguidas, aumentam a eficiência do fluxo de trabalho.
+
+    II, II e V estão corretas.
+
+
+Promover uma gestão de projetos mais eficiente é do interesse de muitos profissionais e organizações. No entanto, em um ambiente dinâmico e cheio de mudanças, não é tão simples aplicar etapas teóricas adequadas à realidade das empresas. Após a análise das proposições a seguir, podemos afirmar que:
+
+I. Uma das definições de sucesso em gerenciamento de projetos é entregar os resultados do projeto dentro do tempo, dentro do orçamento e com as características e funcionalidades requeridas.
+
+II. O sucesso em projetos se refere à entrega dos benefícios do projeto em relação aos critérios financeiros de qualidade, flexibilidade e a inovação esperada pelos stakeholders.
+
+III. Para ter um projeto com eficácia e agilidade, é importante seguir os cinco grupos de processos de gerenciamento de projetos necessários em qualquer projeto.
+
+IV. Tanto a visão do sucesso do gerenciamento do projeto quanto o sucesso do projeto são essenciais para o desempenho do produto, da organização e para o alcance dos benefícios organizacionais.
+
+V. O grupo de execução para o gerenciamento de projetos é mais complexo, pois exige que o escopo seja esmiuçado, estudado e definido por partes, além de estabelecer o valor do investimento e o prazo do projeto.
+
+    I, II, III e IV estão corretas.
+
+
+
+
+A filosofia Lean de Gestão é uma metodologia que tem como intuito a otimização de custos e a redução do tempo e desperdícios em uma empresa. Essa metodologia visa a otimização e redução dos custos, tempo e dos desperdícios de uma empresa. A filosofia Lean é uma metodologia de gerenciamento de projetos que possibilita o uso de ferramentas para a adoção de uma abordagem abrangente. Sobre os principais conceitos do Lean, que influenciam diretamente a abordagem ágil, após a análise das proposições a seguir, podemos afirmar que:
+
+I. SISTEMA EMPURRADO: sistema que empurra aquele que está na frente, é como se em um mercado, o estoque fosse ficando lotado de mercadorias antes destas saírem da prateleira.
+
+II FLUXO CONTÍNUO: em uma organização Lean não há interrupções nos processos nem acúmulo de produtos parcialmente prontos. As equipes fazem de tudo para eliminar multitarefas, interrupções para realizar inventário e grandes lotes de trabalho.
+
+III. MELHORIA CONTÍNUA (kaizen, em japonês): é uma estratégia usada para identificar melhorias incrementais em um processo, reduzindo desperdícios. Em uma organização que adota melhoria contínua, todos trabalham juntos para identificar oportunidades de melhoria de forma colaborativa.
+
+IV. RESPEITO PELAS PESSOAS: esse respeito mútuo entre as pessoas de todos os níveis torna mais fácil a solução de problemas, faz com que o trabalho seja menos dolorido e mais prazeroso e leva a organização a níveis cada vez mais altos de produtividade.
+
+V. FOCO NO PRODUTO: uma organização Lean existe para produzir em massa.
+
+    II, II e IV estão corretas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
