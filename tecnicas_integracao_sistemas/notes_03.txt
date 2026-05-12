@@ -54,3 +54,55 @@ MFA -> Autenticação de dois fatores
 
 
 
+
+
+
+MENSAGERIA:
+Em vez de um sistema chamar outro diretamente via HTTP/REST, ele envia uma mensagem para uma fila, tópico ou broker, e outro sistema consome essa mensagem depois.
+
+Conceitos principais
+1. Producer (Produtor)
+
+É quem envia mensagens.
+
+Exemplo:
+
+sistema de pedidos
+sistema de e-commerce
+frontend
+
+2. Consumer (Consumidor)
+
+É quem recebe/processa mensagens.
+
+Exemplo:
+
+sistema de envio de emails
+sistema de faturamento
+sistema de estoque
+
+3. Broker
+
+É o intermediário responsável por armazenar e distribuir mensagens.
+
+Exemplos famosos:
+
+RabbitMQ
+Apache Kafka
+Amazon Web Services SQS
+Microsoft Azure Service Bus
+
+
+Resiliência
+
+    Se um sistema cair, a mensagem continua na fila.
+    Quando o serviço voltar:
+    ele processa as mensagens pendentes.
+
+
+Processamento assíncrono
+    O usuário não precisa esperar tudo terminar.
+Exemplo:
+    usuário faz compra
+    pedido é salvo
+    email e nota fiscal são processados depois
