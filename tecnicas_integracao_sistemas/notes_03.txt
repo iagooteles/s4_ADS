@@ -1,0 +1,56 @@
+//////////////////////////////////////
+
+Autenticação vs Autorização
+
+
+Identificação: O ato de indicar a identidade de uma pessoa ou coisa;
+
+Autenticação: Ato de provar identidade de um usuário do sistema de computador
+
+Autorização: é a função de especificar os acessos/direitos/privilégios do usuário aos recursos do sistema;
+
+
+Tipos de autenticação:
+
+Basic Authentication: Usuário envia usuário e senha por meio de headers para realizar a autenticação;
+usuario:senha
+Codificado em base64;
+Base64 não é criptografia; Qualquer pessoa consegue decodificar facilmente;
+
+Bearer Authentication:Envia-se usuário e senha para o servidor, caso validado, é retornado um token e às vezes um refresh token, com esse token é possível fazer as requisições para endpoints privadas;
+o refresh token serve para emitir novos tokens;
+
+API key: O servidor gera uma chave aleaatória e atribui a um usuário;
+O usuário envia esta chave em todas as requisições, o servidor valida a chave e permite que o usuário acesse os recursos;
+A chave pode ter restrições: escopo, Rate limit, etc;
+
+OAuth: O usuário autoriza uma aplicação a acessar seus recursos em outro serviço. A aplicação recebe um authorization_code do servidor de autorização, que troca esse código por um access_token. Com o token, a aplicação faz requisições à API do serviço, acessando apenas os recursos permitidos e pelo tempo definido, sem precisar da senha do usuário.
+Exemplo prático
+
+Quando você clica:
+
+“Entrar com Google”
+
+isso normalmente usa OAuth2.
+
+Como funciona
+Fluxo simplificado
+Usuário tenta acessar aplicação
+Aplicação redireciona para o provedor (Google, GitHub etc.)
+Usuário faz login no provedor
+Provedor pergunta se o usuário autoriza o acesso
+Provedor retorna um token para a aplicação
+
+
+
+
+MFA -> Autenticação de dois fatores 
+
+- Algo que vc tem;
+- Algo que vc sabe;
+- Algo que vc é;
+
+
+
+
+

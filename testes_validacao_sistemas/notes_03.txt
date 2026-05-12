@@ -55,9 +55,11 @@ Testes não funcionais - Tem como objetivo testar aspectos do software que não 
 
 A testabilidade se caracteriza pelo quão fácil um determinado sistema pode ser testado.
 
-Teste de caixa branca - Também conhecido como teste estrutural - baseia-se na forma como o programa trabalha internamente. A análise da estrutura do programa é uma forma de procurar lacunas nos testes funcionais;
+Teste de caixa branca - Também conhecido como teste estrutural - baseia-se na forma como o programa trabalha internamente. A análise da estrutura do programa é uma forma de procurar lacunas nos testes funcionais; Testar o sistema olhando o código por dentro;
+    Foco: Lógica interna; estrutura do código; caminhos do código;
 
-Teste de caixa preta - Faz referência a testes realizados na interface do software.
+Teste de caixa preta - Faz referência a testes realizados na interface do software. Testar o sistema sem olhar o código por dentro;
+    Foco: Entradas e saídas; funcionalidade; requisitos;
 
 Tabela de decisão - 
 
@@ -66,6 +68,9 @@ Teste de transição de estado -
 Teste de caso de uso - 
 
 partição de equivalencia - Se refere a regras de negócio;
+
+
+
 
 
 Exercícios -> 
@@ -90,6 +95,9 @@ O teste caixa-branca fundamenta-se em um exame rigoroso do detalhe procedimental
 Durante o processo de desenvolvimento, o software e seus artefatos passam por uma série de modificações da sua concepção à implantação, da necessidade à continuidade. Não apenas durante a sua codificação, mas ao longo de todo o ciclo de vida do software, tratado ou não como serviço, as mudanças são inevitáveis e, por mais simples que se pareça, gerenciar essas alterações é uma tarefa árdua. Isso exige um nível de organização que permita a rastreabilidade e visibilidade a todos os interessados nos resultados gerados pelo sistema desenvolvido. Independente da metodologia utilizada no desenvolvimento, um processo fundamental para apoiar a equipe de desenvolvimento e permitir uma evolução segura e confiável precisa ser definido e mantido antes, durante e após a entrega do software. A Gestão de Configuração (GC) é esse processo tão essencial no desenvolvimento de software, mas que ocasionalmente é mal compreendida e aplicada de maneira incoerente em projetos de desenvolvimento, gerando retrabalho e, por vezes, impedindo o sucesso na implantação do software. Sobre o tema, marque a alternativa que melhor define o que é gerenciamento de configuração:
 
     O gerenciamento de configuração está relacionado com as políticas, os processos e as ferramentas para o gerenciamento de mudanças dos sistemas de software.
+
+
+
 
 
 
@@ -127,4 +135,6 @@ ERRO:
 DEFEITO: O problema está no artefato;  
 
 FALHA: 
+
+
 

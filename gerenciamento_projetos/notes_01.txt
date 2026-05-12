@@ -1,5 +1,3 @@
-Aulão 2: 
-
 ////////////// 1. A história do gerenciamento de projetos e instituições  de controle ///////////////////
 
 Gestão de projetos permite:
@@ -109,15 +107,14 @@ V. As mudanças em projetos são somente prejudiciais, não podem ser evitadas, 
     I, II e III estão corretas.
 
 
+
 Para compreender o processo do gerenciamento de projetos, é importante reconhecer o conceito de projetos e de que forma se diferencia das chamadas tarefas rotineiras. Sobre o conceito de projetos, após a análise das proposições a seguir, podemos afirmar que:
 
 I. O projeto é um esforço permanente empreendido para criar um produto, serviço ou resultado exclusivo.
 
 II. O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo.
 
-III. O projeto é tudo aquilo que precisamos realizar para gerar algo novo: pode ser o projeto de uma casa, um sistema informatizado, um estudo/pesquisa, um trabalho de conclusão
-
-de curso, uma contratação ou um compra importante.
+III. O projeto é tudo aquilo que precisamos realizar para gerar algo novo: pode ser o projeto de uma casa, um sistema informatizado, um estudo/pesquisa, um trabalho de conclusão de curso, uma contratação ou um compra importante.
 
 IV. O fato dos projetos serem temporários significa que devem ter curta duração do cronograma de execução.
 
@@ -128,9 +125,7 @@ V. O fato do projeto ser temporário significa que os projetos devem ter um iní
 
 
 
-Os projetos têm relevância para a implementação e o sucesso das estratégias organizacionais, para a geração de valor nos negócios. Os projetos abrangem a execução de atividades e processos no seu escopo, mas se diferenciam das atividades rotineiras
-
-das organizações. Sobre os projetos e as atividades rotineiras, após a análise das proposições a seguir, podemos afirmar que:
+Os projetos têm relevância para a implementação e o sucesso das estratégias organizacionais, para a geração de valor nos negócios. Os projetos abrangem a execução de atividades e processos no seu escopo, mas se diferenciam das atividades rotineiras das organizações. Sobre os projetos e as atividades rotineiras, após a análise das proposições a seguir, podemos afirmar que:
 
 I. As atividades rotineiras possuem ciclos curtos de duração, são desenvolvidas por apenas um indivíduo, são bem conhecidas e não têm uma cronologia muito definida.
 
