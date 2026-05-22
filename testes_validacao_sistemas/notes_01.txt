@@ -11,7 +11,7 @@ Plano estratégico de testes
 
 CMMI - Capability Maturity Model Integration - modelo contendo um conjunto de práticas que servem de referência para que as empresas possam melhorar os processos e o desempenho no desenvolvimento de produtos e serviços;
 
-MPSBr - Melhoria do Processo de Sfotware Brasileiro
+MPSBr - Melhoria do Processo de Software Brasileiro
 
 ISO/IEC 15504/SPICE - Padrão que define um conjunto de requisitos para avaliação do processo de software;
 
@@ -157,8 +157,6 @@ Times ágeis são equipes de trabalho que atuam baseadas em metodologias ágeis.
 
 
 O conceito de qualidade tem hoje importância fundamental para alavancar a competitividade das empresas. Atualmente, a preocupação com a qualidade deixou de ser um diferencial competitivo e passou a ser um pré-requisito básico para participação no mercado.
-
-Fonte: QUALIDADE de Software - Engenharia de Software 29. DEVMEDIA, 2010. Disponível em: https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209. Acesso em: dez de 2022.
 
 Consciente da importância da qualidade, marque a alternativa que melhor indica o seu significado:
 

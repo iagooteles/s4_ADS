@@ -1,5 +1,3 @@
-ML não visto
-
 /////////////////  1. Tipos de ferramentas de automação de testes //////////////////////////////////////
 
 Em situações em que as funcionalidades são pouco usadas, não convém implantar a automação de testes, seria despedício de tempo e esforço;
@@ -153,10 +151,43 @@ Utilizar ferramentas para a especificação e gestão de testes agrega muitos be
 
 
 
+Revisão final:
+
+
+DDT - Teste Orientado a Dados
+Data Driven Testing
+
+É uma técnica onde:
+    o mesmo teste é executado várias vezes;
+    mudando apenas os dados de entrada.
 
 
 
+Com DDT
+    const dados = [
+    ["admin", "123", true],
+    ["admin", "errado", false],
+    ["", "123", false]
+    ]
+
+    dados.forEach(([usuario, senha, esperado]) => {
+    test("teste login", () => {
+        expect(login(usuario, senha)).toBe(esperado)
+    })
+    })
 
 
+✅ Objetivos do DDT
+    reduzir repetição;
+    aumentar cobertura;
+    facilitar manutenção;
+    testar muitos cenários rapidamente.
 
+✅ Onde os dados ficam?
+Os dados podem vir de:
+    arrays;
+    JSON;
+    CSV;
+    Excel;
+    banco de dados.
 
